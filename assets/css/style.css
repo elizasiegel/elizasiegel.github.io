@@ -1,0 +1,281 @@
+/*-------------------------------------------------------------
+    @author : Taylor McPherson
+    web Porfolio for Eliza Siegel (the wonderful, the GREAT!)
+    
+    index.html : skeleton HTML code for landing page/Home
+
+    @date : Summer 2019
+
+---------------------------------------------------------------*/
+
+/*--------------------------
+      Sitewide Styles
+-----------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow:1px 1px 1px white;
+}
+
+h2 {
+    font-size: 3.5em;
+    text-shadow:1px 1px 1px white;
+}
+
+h3 {
+    font-size: 3em;
+    text-shadow:1px 1px 1px white;
+}
+
+h4 {
+    font-size: 2em;
+    margin-top: .7em;
+    margin-bottom: .55em;
+    text-shadow:1px 1px 1px white;
+}
+h5 {
+    font-size: 1.5em;
+    text-shadow:1px 1px 1px white;
+}
+h6 {
+    font-size: 1em;
+    text-shadow:1px 1px 1px white;
+}
+
+a:visited, a:active, a {
+    text-decoration: none;
+    color: #396514;
+}
+
+.navBar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 19.5%;
+    margin-left: 0;
+    margin-right: 8%;
+    background:rgba(255,255,255, 0.8);
+    text-shadow:1px 1px 1px white;
+}
+
+.nameIcon {
+    margin-left: 7.6%;
+}
+
+.navItems {
+    margin: 1.8%;
+    margin-top: 4%;
+    flex-direction: column;
+
+}
+
+.dropdownContent {
+    display: none;
+    flex-direction: column;
+    font-size: .8em;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.navItems:hover .dropdownContent{
+    display: flex;
+
+}
+
+.navItems:hover .dropdownContent a:hover {
+    color: #D98B26;   
+}
+
+
+.navItems:hover, .nameIcon:hover, .navTitle:hover {
+    color: #D98B26;
+}
+
+
+#n1 {
+    margin-left: 40%;
+}
+
+.wordContainer {
+    position: absolute;
+    z-index: 1;
+    color: blue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+.wordContainer:hover{
+    cursor:pointer;
+    background: rgba(255, 255, 255, .8);
+}
+
+
+
+/*------------------------------
+        index.html
+*------------------------------*/
+
+.landingPage {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: white;
+
+}
+
+#backPic {
+    z-index: -1;
+    opacity: .6;
+}
+
+#wcHome {
+    top: 23%;
+    left: 40%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: rgba(255, 255, 255, .8);
+}
+
+#wcHome:hover {
+    background-color: #F7D7B4;
+}
+
+#homeName {
+    color: #25541D;
+}
+
+
+
+
+/*------------------------------
+        photo.html
+*------------------------------*/
+.content {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7.5%;
+}
+
+.album {
+    margin-top: 8%;
+}
+
+#wcPhoto1, #wcPhoto2, #wcPhoto3 {
+    background: rgba(255,255,255, 0.7);
+}
+
+#wcPhoto1:hover, #wcPhoto2:hover, #wcPhoto3:hover {
+    background: rgba(174, 196, 187, 0.8);
+}
+
+#wcPhoto1 {
+    top: 65%;
+    left:42%;
+}
+
+#wcPhoto2 {
+    top: 197%;
+    left: 42%;
+}
+
+#wcPhoto3 {
+    top: 330%;
+    left: 42%;
+}
+
+#wcPhoto1 #wcPhoto2 #wcPhoto3 h4 {
+    margin-top: .2em;
+}
+
+.albumTitle, .albumTitle:active, .albumTitle:visited {
+    color: #396514;
+}
+
+
+
+
+/*------------------------------
+  bwPhoto.html (all photo pages)
+*------------------------------*/
+
+.albumContainer {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: flex;
+    flex-direction: column;
+
+}
+.albumDescrip {
+    margin-top: 8%;
+    color: #173911;
+    text-align: center;
+}
+
+.albumContainer p {
+    margin-top: .3em;
+    color: rgba(23, 57, 17, .9);
+}
+
+.albumContainer h5 {
+    margin-bottom: 0;
+}
+
+.title {
+    margin-bottom: 2%;
+}
+.bwContent, .eContent {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.aImg {
+    margin-bottom: 8%;
+
+}
+.aImg:hover {
+    cursor: pointer;
+}
+
+#backButton {
+    display: none;
+    position: fixed;
+    width: 6%;
+    height: 2%;
+    color: #396514;
+    margin-left: 8%;
+}
+
+#backButton:hover {
+    cursor: pointer;
+}
+
+#h5Back {
+    margin-top: 300%;
+}
+
+
+#backButton:hover {
+    color: #D98B26;
+}
