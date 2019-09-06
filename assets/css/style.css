@@ -170,10 +170,11 @@ a:visited, a:active, a {
     flex-direction: column;
     justify-content: center;
     margin-left: 7.5%;
+
 }
 
 .album {
-    margin-top: 8%;
+    margin-top: 9%;
 }
 
 #wcPhoto1, #wcPhoto2, #wcPhoto3 {
