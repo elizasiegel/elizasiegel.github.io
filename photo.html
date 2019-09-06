@@ -1,0 +1,66 @@
+<!-------------------------------------------------------------
+    @author : Taylor McPherson
+    web Porfolio for Eliza Siegel (the wonderful, the GREAT!)
+
+    photo.html : photo album holder page
+
+    @date : Summer 2019
+--------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photography</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/script/script.js"></script> 
+</head>
+
+<body>
+	<!--Navigation Bar-->
+	<div class="navBar">
+		<a class="nameIcon" href="index.html">
+			<h4 id="firstName">E l i z a <br> S i e g e l</h4>
+		</a>
+		<div class="navItems" id="n1">
+			<a class="navTitle" id="nt1" href="photo.html">Photographs</a>
+			<div class="dropdown" id="photoDrop">
+				<div class="dropdownContent" id="pd1">
+					<a href="bwPhoto.html"> Paris / BW</a> 
+					<a href="etretatPhoto.html">Étretat / etc.</a> 
+					<a href="summerPhoto.html">Summer / Dusk</a>
+				</div>
+			</div>
+		</div>
+		
+		<a class="navItems" id="n2" href="poems.html">Poetry</a>
+		<a class="navItems" id="n3" href="films.html">Films</a>
+		<a class="navItems" id="n4" href="about.html">About</a>
+		<a class="navItems" id="n5" href="contact.html">Contact</a>
+	</div>
+
+	<!--Page Body / Content-->
+	<div class="content">
+		<div class="album" id="a1">
+			<img id="albumImg" src="assets/img/a1-15.jpg" width="85%">
+			<div class="wordContainer" id="wcPhoto1">
+            	<a class="albumTitle" href="bwPhoto.html"><h4>2017 <br> Paris / BW</h4></a>
+        	</div>
+		</div>
+		<div class="album" id="a2">
+			<img id="albumImg" src="assets/img/a2Cover.jpg" width="85%">
+			<div class="wordContainer" id="wcPhoto2">
+            	<a class="albumTitle"href="etretatPhoto.html"><h4>2017 <br> Étretat / etc.</h4></a>
+        	</div>
+		</div>
+		<div class="album" id="a3">
+			<img id="albumImg" src="assets/img/a3Cover.jpg" width="85%">
+			<div class="wordContainer" id="wcPhoto3">
+            	<a class="albumTitle" href="summerPhoto.html"><h4>2018 <br> Summer / Dusk </h4></a>
+        	</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>
