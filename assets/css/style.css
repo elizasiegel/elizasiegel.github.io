@@ -52,7 +52,7 @@ h6 {
 
 a:visited, a:active, a {
     text-decoration: none;
-    color: #396514;
+    color: #396514; 
 }
 
 .navBar {
@@ -108,12 +108,12 @@ a:visited, a:active, a {
 
 }
 
-.navItems:hover, .nameIcon:hover, .navTitle:hover, .navItems:hover .dropdownContent a:hover{
+.navItems:hover, .nameIcon:hover, .navTitle:hover, .navItems:hover .dropdownContent a:hover {
     color: #D98B26;
 }
 
-.currentPage a:active {
-    color: #D98B26; 
+.navItems .currentPage:active {
+    color: rgba(255, 255, 255, 1)
 }
 
 
@@ -133,6 +133,11 @@ a:visited, a:active, a {
 .wordContainer:hover{
     cursor:pointer;
     background: rgba(255, 255, 255, .8);
+}
+
+body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo a#nt1 {
+    color: #D98B26;
+    color: #ffc235;
 }
 
 
