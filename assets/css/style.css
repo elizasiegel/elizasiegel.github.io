@@ -153,6 +153,9 @@ body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo
 /*------------------------------
         index.html
 *------------------------------*/
+body#home {
+    animation: fadeIn .5s;
+}
 
 .landingPage {
     text-align: center;
@@ -188,6 +191,10 @@ body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo
 /*------------------------------
         photo.html
 *------------------------------*/
+body#photo {
+    animation: fadeIn 1.5s;
+}
+
 .content {
     width: 100%;
     background: white;
@@ -203,6 +210,7 @@ body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo
     margin-left: 7.5%;
     margin-right: 7.5%;
 }
+
 
 
 #wcPhoto1, #wcPhoto2, #wcPhoto3 {
@@ -233,6 +241,7 @@ body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo
 .albumTitle, .albumTitle:active, .albumTitle:visited {
     color: #396514;
 }
+
 
 
 
