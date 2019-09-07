@@ -139,9 +139,13 @@ a:visited, a:active, a {
 }
 
 
-.wordContainer:hover{
+.wordContainer:hover {
     cursor:pointer;
     background: rgba(255, 255, 255, .8);
+}
+
+.wordContainer:active {
+    animation: fadin .5s reverse;
 }
 
 body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo a#nt1 {
@@ -192,7 +196,7 @@ body#home {
         photo.html
 *------------------------------*/
 body#photo {
-    animation: fadeIn 5s;
+    animation: fadeIn 4s;
 }
 
 .content {
