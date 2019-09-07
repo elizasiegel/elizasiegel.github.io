@@ -72,7 +72,7 @@ a:visited, a:active, a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 19.5%;
+    height: 19%;
     width: 100%;
     margin-left: 7%;
     margin-right: 4%;
@@ -82,6 +82,7 @@ a:visited, a:active, a {
 
 .nameIcon {
     margin-left: .5%;
+
 }
 
 #n1 {
@@ -101,7 +102,6 @@ a:visited, a:active, a {
 
 }
 
-
 .dropdown {
     display: flex;
     flex-direction: column;
@@ -117,7 +117,6 @@ a:visited, a:active, a {
 
 .navItems:hover .dropdownContent{
     display: flex;
-
 }
 
 .navItems:hover, .nameIcon:hover, .navTitle:hover, .navItems:hover .dropdownContent a:hover {
@@ -146,6 +145,15 @@ a:visited, a:active, a {
 
 .wordContainer:active {
     animation: fadin .5s reverse;
+}
+
+.content {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
 }
 
 body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo a#nt1 {
@@ -199,14 +207,6 @@ body#photo {
     animation: fadeIn 4s;
 }
 
-.content {
-    width: 100%;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
 
 .album {
     margin-top: 10%;
