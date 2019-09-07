@@ -82,6 +82,10 @@ a:visited, a:active, a {
 
 .nameIcon {
     margin-left: .5%;
+}
+
+.nameIcon h4 {
+    margin-top: 8%;
 
 }
 
