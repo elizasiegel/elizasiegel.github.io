@@ -154,7 +154,7 @@ body#contact a#n5, body#about a#n4, body#films a#n3, body#poems a#n2, body#photo
         index.html
 *------------------------------*/
 body#home {
-    animation: fadeIn .5s;
+    animation: fadeIn 1s;
 }
 
 .landingPage {
@@ -192,7 +192,7 @@ body#home {
         photo.html
 *------------------------------*/
 body#photo {
-    animation: fadeIn 1.5s;
+    animation: fadeIn 5s;
 }
 
 .content {
