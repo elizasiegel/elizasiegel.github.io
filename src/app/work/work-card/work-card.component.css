@@ -1,0 +1,45 @@
+* {
+  color: #FFF;
+}
+.work-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  border-radius: 80px;
+  height: 21em;
+  width: 14em;
+  border: solid 1px;
+}
+
+.workIcon {
+  margin-top: 2em;
+}
+.workTitle {
+  font-size: 1.4em;
+  font-family: 'Bellefair', serif;
+}
+
+.workDescrip {
+  margin-top: 1em;
+  font-weight: 300;
+  margin-bottom: 2em;
+
+}
+
+.work-card-container:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+
+.hover-content {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em;
+  font-family: 'Bellefair', serif;
+
+}
+
+a:active, a, a:hover {
+  text-decoration: none;
+}

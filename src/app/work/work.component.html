@@ -1,0 +1,17 @@
+<section>
+  <!--top header-->
+  <div class="work-container">
+    <div class="work-header">
+      <app-page-header [line1]="headerLine1" [line2]="''"></app-page-header>
+    </div>
+    <div class="work-cards">
+      <div class="single-card" *ngFor="let card of cards">
+        <app-work-card [cardTitle]="card.title" [cardDescrip]="card.description"
+                       [cardImgURL]="card.imgUrl" [cardColor]="card.color"
+                       [cardLink]="card.link" [cardHoverText]="card.hoverText">
+        </app-work-card>
+      </div>
+    </div>
+    <div class="resume-button">Resume</div>
+  </div>
+</section>
