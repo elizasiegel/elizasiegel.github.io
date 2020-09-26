@@ -4,13 +4,14 @@
 .nav-container-web {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 3em;
   align-items: center;
 
 }
 .lhs {
-  margin-right: 52%;
+  margin-left: 2em;
   font-size: 1.4em;
 }
 
@@ -25,6 +26,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-left: 2em;
+  margin-right: 3em;
 }
 
 .rhs .nav-item {

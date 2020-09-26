@@ -25,10 +25,16 @@
   justify-content: center;
   align-items: center;
   margin-top: 2em;
-  border: solid 1px #516A44;
+  border: solid 1px #333333;
   border-radius: 3em;
   width: 8em;
   padding-top: 1em;
   padding-bottom: 1em;
   align-self: center;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+  color: #DF7234;
+  border-color: #DF7234;
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { WorkCardComponent } from "./work-card/work-card.component";
-import { WORKCARDS } from "../data-directory";
+import { WorkCardComponent } from './work-card/work-card.component';
+import { WORKCARDS } from '../data-directory';
 
 @Component({
   selector: 'app-work',
@@ -9,7 +9,7 @@ import { WORKCARDS } from "../data-directory";
 })
 export class WorkComponent implements OnInit {
   cards = WORKCARDS;
-  headerLine1 = "I write things and also work on a farm.";
+  headerLine1 = 'I write things and also work on a farm.';
 
   constructor() { }
 

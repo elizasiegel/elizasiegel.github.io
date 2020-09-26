@@ -1,0 +1,85 @@
+* {
+    color: #FFFFFF;
+}
+.footer-container {
+    background-color: #516A44;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 -4em 0 -4em;
+    padding: 2.5em 6em 2.5em 6em;
+}
+
+/*-----left hand items-----*/
+.lhs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+    margin-left: 2em;
+}
+
+.lhs .title {
+    font-family: 'Bellefair', serif;
+    font-size: 1.6em;
+    display: flex;
+    margin-bottom: 1em;
+    opacity: .9;
+}
+
+.lhs .descrip {
+    font-weight: 300;
+    opacity: .85;
+    font-size: .9em;
+}
+
+.lhs .descrip a, .rhs .site-item {
+    opacity: 1;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.lhs .descrip a:hover {
+    opacity: .85;
+}
+
+/*-----right hand items-----*/
+.rhs {
+    display: flex;
+    flex-direction: row;
+}
+
+.rhs .site-map, .rhs .connect {
+    margin-left: 8em;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.rhs .title {
+    opacity: .8;
+    font-size: .8em;
+}
+
+.rhs .items {
+    margin-top: .2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.rhs .site-item {
+    font-size: .9em;
+    margin-top: .2em;
+    opacity: .85;
+    font-weight: 300;
+}
+
+.rhs .connect .site-item {
+    margin-top: .3em;
+}
+
+.rhs .site-item:hover {
+    opacity: .7;
+}

@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.6em;
   color: #333333;
+  margin: 0;
 }
 
 *:focus {outline:0 !important;}
+
+a, a:active {
+  text-decoration: none;
+}
 
 section {
   padding-bottom: 4em

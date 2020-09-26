@@ -1,7 +1,7 @@
 export interface WordsImg {
-  title: string,
-  subtitle: string,
-  imgUrl: string,
+  title: string;
+  subtitle: string;
+  imgUrl: string;
 }
 
 export interface WorkCard {
@@ -11,4 +11,10 @@ export interface WorkCard {
   color: string;
   link: string;
   hoverText: string;
+}
+
+export interface Connect {
+  title: string;
+  imgUrl: string;
+  link: string;
 }
