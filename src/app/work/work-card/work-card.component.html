@@ -1,0 +1,17 @@
+<div class="work-card-container" (mouseenter)="hover=true" (mouseleave)="hover=false"
+     [ngStyle]="styleCard()" >
+  <div class="main-content">
+    <div *ngIf="!hover" [ngStyle]="{'visibility': 'none'}">
+      <div class="workIcon" >
+        <img src="{{cardImgURL}}" width="20%">
+      </div>
+      <div class="workTitle">{{cardTitle}}</div>
+      <div class="workDescrip">{{cardDescrip}}</div>
+    </div>
+  </div>
+  <a class="hover-content" *ngIf="hover" [ngStyle]="{'color':cardColor}"
+     href="{{cardLink}}" target="_blank">
+    {{cardHoverText}}
+  </a>
+</div>
+
