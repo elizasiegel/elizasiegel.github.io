@@ -10,6 +10,11 @@ import { WorkCardComponent } from './work/work-card/work-card.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { PhotosComponent } from './photos/photos.component';
+import { MonoscapesComponent } from './photos/monoscapes/monoscapes.component';
+import { FranceColorComponent } from './photos/france-color/france-color.component';
+import { FranceBwComponent } from './photos/france-bw/france-bw.component';
+import { SummerComponent } from './photos/summer/summer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { FooterComponent } from './footer/footer.component';
     WorkCardComponent,
     PageHeaderComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    PhotosComponent,
+    MonoscapesComponent,
+    FranceColorComponent,
+    FranceBwComponent,
+    SummerComponent
   ],
   imports: [
     BrowserModule,

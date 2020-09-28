@@ -1,5 +1,6 @@
-import {WordsImg, WorkCard, Connect } from './data';
+import {WordsImg, WorkCard, Connect, PhotoCard } from './data';
 
+/*----Home Page-----*/
 export const HOMEWORDS: WordsImg[] = [
   {
     title: 'Eliza Siegel',
@@ -8,10 +9,11 @@ export const HOMEWORDS: WordsImg[] = [
   }
 ];
 
+/*----Work Page-----*/
 export const WORKCARDS: WorkCard[] = [
   {
     title: 'Politics and Culture Satirist',
-    description: 'Check out my weekly column, “Irrational Takes,” where I satirize politics and culture' +
+    description: 'Check out my monthly column, “Irrational Takes,” where I satirize politics and culture' +
       'for the feminist news and storytelling site The Rational.',
     imgUrl: './assets/img/teacup.png',
     color: '#DA6B40',
@@ -40,6 +42,46 @@ export const WORKCARDS: WorkCard[] = [
   },
 ];
 
+/*----About Page-----*/
+
+
+/*----Photos Page-----*/
+export const PHOTOS: PhotoCard[] = [
+  {
+    backgroundImg: './assets/img/roadtrip.png',
+    hoverColor: '#CCE8F1',
+    title: 'Monoscapes',
+    description: 'August, 2019. An interplanetary drive across the country.',
+    link: '/monoscapes',
+  },
+  {
+    backgroundImg: './assets/img/etretat.png',
+    hoverColor: '#F2D298',
+    title: 'Pale sunset',
+    description: 'Paris and Étretat, May-June, 2017. A vivid sunburst appearing and vanishing ' +
+        'behind purple clouds.',
+    link: '/pale-sunset',
+  },
+  {
+    backgroundImg: './assets/img/paris.png',
+    hoverColor: '#DCDCDC',
+    title: 'Paris, then to the coast',
+    description: 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across ' +
+        'the grey sky.',
+    link: '/paris-coast',
+  },
+  {
+    backgroundImg: './assets/img/moms.png',
+    hoverColor: '#6B9359',
+    title: 'Small elations',
+    description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' +
+        'oversaturated summer.',
+    link: '/small-elations',
+  },
+];
+
+
+/*----Footer-----*/
 export const CONNECTS: Connect[] = [
   {
     title: 'email',

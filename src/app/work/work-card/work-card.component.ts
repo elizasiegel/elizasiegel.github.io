@@ -18,14 +18,14 @@ export class WorkCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.hover=false;
+    this.hover = false;
   }
 
   styleCard() {
     if (!this.hover) {
-      return {backgroundColor: this.cardColor, borderColor: this.cardColor}
+      return {backgroundColor: this.cardColor, borderColor: this.cardColor};
     } else {
-      return { backgroundColor: 'transparent', borderColor: this.cardColor}
+      return { backgroundColor: 'transparent', borderColor: this.cardColor};
     }
   }
 }

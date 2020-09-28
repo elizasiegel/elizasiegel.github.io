@@ -18,3 +18,11 @@ export interface Connect {
   imgUrl: string;
   link: string;
 }
+
+export interface PhotoCard {
+  backgroundImg: string;
+  hoverColor: string;
+  title: string;
+  description: string;
+  link: string;
+}

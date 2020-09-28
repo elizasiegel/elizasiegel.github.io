@@ -7,6 +7,104 @@
 
   (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
     /***/
+    "+rDN":
+    /*!***************************************************************!*\
+      !*** ./src/app/photos/france-color/france-color.component.ts ***!
+      \***************************************************************/
+
+    /*! exports provided: FranceColorComponent */
+
+    /***/
+    function rDN(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "FranceColorComponent", function () {
+        return FranceColorComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../../page-header/page-header.component */
+      "zAId");
+
+      var FranceColorComponent = /*#__PURE__*/function () {
+        function FranceColorComponent() {
+          _classCallCheck(this, FranceColorComponent);
+
+          this.headerLine1 = 'Pale sunset';
+          this.headerLine2 = 'Paris and Étretat, May-June, 2017. A vivid sunburst appearing and vanishing ' + 'behind purple clouds.';
+        }
+
+        _createClass(FranceColorComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return FranceColorComponent;
+      }();
+
+      FranceColorComponent.ɵfac = function FranceColorComponent_Factory(t) {
+        return new (t || FranceColorComponent)();
+      };
+
+      FranceColorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: FranceColorComponent,
+        selectors: [["app-france-color"]],
+        decls: 3,
+        vars: 2,
+        consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"]],
+        template: function FranceColorComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("line1", ctx.headerLine1)("line2", ctx.headerLine2);
+          }
+        },
+        directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__["PageHeaderComponent"]],
+        styles: [".page-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.header-container[_ngcontent-%COMP%] {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGhvdG9zL2ZyYW5jZS1jb2xvci9mcmFuY2UtY29sb3IuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL3Bob3Rvcy9mcmFuY2UtY29sb3IvZnJhbmNlLWNvbG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaGVhZGVyLWNvbnRhaW5lciB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FranceColorComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-france-color',
+            templateUrl: './france-color.component.html',
+            styleUrls: ['./france-color.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
     0:
     /*!***************************!*\
       !*** multi ./src/main.ts ***!
@@ -20,6 +118,341 @@
       /*! /Users/taylormcpherson/elizasiegel.github.io/src/main.ts */
       "zUnb");
       /***/
+    },
+
+    /***/
+    "1PKx":
+    /*!********************************************!*\
+      !*** ./src/app/photos/photos.component.ts ***!
+      \********************************************/
+
+    /*! exports provided: PhotosComponent */
+
+    /***/
+    function PKx(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "PhotosComponent", function () {
+        return PhotosComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _data_directory__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../data-directory */
+      "Pky/");
+      /* harmony import */
+
+
+      var _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ../page-header/page-header.component */
+      "zAId");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+
+      function PhotosComponent_div_4_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var p_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", p_r1.backgroundImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", p_r1.title);
+        }
+      }
+
+      var _c0 = function _c0(a0) {
+        return {
+          "background-color": a0
+        };
+      };
+
+      var _c1 = function _c1() {
+        return {
+          "visibility": "hidden"
+        };
+      };
+
+      function PhotosComponent_div_4_div_3_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var p_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("routerLink", p_r1.link);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](5, _c0, p_r1.hoverColor));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", p_r1.backgroundImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](7, _c1));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r1.title);
+        }
+      }
+
+      function PhotosComponent_div_4_Template(rf, ctx) {
+        if (rf & 1) {
+          var _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mouseenter", function PhotosComponent_div_4_Template_div_mouseenter_1_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7);
+
+            var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+            return ctx_r6.hover = true;
+          })("mouseleave", function PhotosComponent_div_4_Template_div_mouseleave_1_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7);
+
+            var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+            return ctx_r8.hover = false;
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PhotosComponent_div_4_div_2_Template, 2, 2, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PhotosComponent_div_4_div_3_Template, 4, 8, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r0.hover);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.hover);
+        }
+      }
+
+      var PhotosComponent = /*#__PURE__*/function () {
+        function PhotosComponent() {
+          _classCallCheck(this, PhotosComponent);
+
+          this.headerLine1 = 'Film Photography';
+          this.headerLine2 = '';
+          this.photos = _data_directory__WEBPACK_IMPORTED_MODULE_1__["PHOTOS"];
+        }
+
+        _createClass(PhotosComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return PhotosComponent;
+      }();
+
+      PhotosComponent.ɵfac = function PhotosComponent_Factory(t) {
+        return new (t || PhotosComponent)();
+      };
+
+      PhotosComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: PhotosComponent,
+        selectors: [["app-photos"]],
+        decls: 5,
+        vars: 3,
+        consts: [[1, "photos-container"], [1, "photos-header"], [3, "line1", "line2"], ["class", "page-contents", 4, "ngFor", "ngForOf"], [1, "page-contents"], [1, "photo-card", 3, "mouseenter", "mouseleave"], ["class", "no-hover", 4, "ngIf"], ["class", "hover", 3, "routerLink", "ngStyle", 4, "ngIf"], [1, "no-hover"], ["width", "100%", 3, "src", "alt"], [1, "hover", 3, "routerLink", "ngStyle"], ["width", "100%", 3, "src", "ngStyle"], [1, "text"]],
+        template: function PhotosComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PhotosComponent_div_4_Template, 4, 2, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("line1", ctx.headerLine1)("line2", ctx.headerLine2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.photos);
+          }
+        },
+        directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_2__["PageHeaderComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterLink"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgStyle"]],
+        styles: [".photos-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.photos-header[_ngcontent-%COMP%] {\n    width: 100%;\n}\n\n.page-contents[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.photo-card[_ngcontent-%COMP%] {\n    display: flex;\n    justify-content: center;\n    align-self: center;\n    width: 74%;\n    border-radius: 4em;\n    margin-bottom: 2em;\n}\n\n.photo-card[_ngcontent-%COMP%]:hover {\n    cursor: pointer;\n}\n\n.photo-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    border-radius: 4em;\n    display: flex;\n    align-self: center;\n}\n\n.photo-card[_ngcontent-%COMP%]   .hover[_ngcontent-%COMP%] {\n    width: 100%;\n}\n\n.hover[_ngcontent-%COMP%], .no-hover[_ngcontent-%COMP%] {\n    border-radius: 4em;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.text[_ngcontent-%COMP%] {\n    display: flex;\n    align-self: center;\n    position: absolute;\n    font-family: 'Bellefair', serif;\n    font-size: 1.6em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGhvdG9zL3Bob3Rvcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztBQUNmOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixrQkFBa0I7SUFDbEIsVUFBVTtJQUNWLGtCQUFrQjtJQUNsQixrQkFBa0I7QUFDdEI7O0FBQ0E7SUFDSSxlQUFlO0FBQ25COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLGFBQWE7SUFDYixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHNCQUFzQjtJQUN0Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsK0JBQStCO0lBQy9CLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL3Bob3Rvcy9waG90b3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5waG90b3MtY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnBob3Rvcy1oZWFkZXIge1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4ucGFnZS1jb250ZW50cyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5waG90by1jYXJkIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgICB3aWR0aDogNzQlO1xuICAgIGJvcmRlci1yYWRpdXM6IDRlbTtcbiAgICBtYXJnaW4tYm90dG9tOiAyZW07XG59XG4ucGhvdG8tY2FyZDpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4ucGhvdG8tY2FyZCBpbWcge1xuICAgIGJvcmRlci1yYWRpdXM6IDRlbTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbn1cblxuLnBob3RvLWNhcmQgLmhvdmVyIHtcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLmhvdmVyLCAubm8taG92ZXIge1xuICAgIGJvcmRlci1yYWRpdXM6IDRlbTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnRleHQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24tc2VsZjogY2VudGVyO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBmb250LWZhbWlseTogJ0JlbGxlZmFpcicsIHNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMS42ZW07XG59XG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PhotosComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-photos',
+            templateUrl: './photos.component.html',
+            styleUrls: ['./photos.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
+    "2hwA":
+    /*!***************************************************!*\
+      !*** ./src/app/photos/summer/summer.component.ts ***!
+      \***************************************************/
+
+    /*! exports provided: SummerComponent */
+
+    /***/
+    function hwA(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "SummerComponent", function () {
+        return SummerComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../../page-header/page-header.component */
+      "zAId");
+
+      var SummerComponent = /*#__PURE__*/function () {
+        function SummerComponent() {
+          _classCallCheck(this, SummerComponent);
+
+          this.headerLine1 = 'Small elations';
+          this.headerLine2 = 'Baltimore, Canton, Florence, Coney Island, 2018-2019. ' + 'The sweetness of an oversaturated summer.';
+        }
+
+        _createClass(SummerComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return SummerComponent;
+      }();
+
+      SummerComponent.ɵfac = function SummerComponent_Factory(t) {
+        return new (t || SummerComponent)();
+      };
+
+      SummerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: SummerComponent,
+        selectors: [["app-summer"]],
+        decls: 3,
+        vars: 2,
+        consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"]],
+        template: function SummerComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("line1", ctx.headerLine1)("line2", ctx.headerLine2);
+          }
+        },
+        directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__["PageHeaderComponent"]],
+        styles: [".page-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.header-container[_ngcontent-%COMP%] {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGhvdG9zL3N1bW1lci9zdW1tZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL3Bob3Rvcy9zdW1tZXIvc3VtbWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaGVhZGVyLWNvbnRhaW5lciB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SummerComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-summer',
+            templateUrl: './summer.component.html',
+            styleUrls: ['./summer.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
     },
 
     /***/
@@ -77,9 +510,9 @@
       AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: AboutComponent,
         selectors: [["app-about"]],
-        decls: 4,
+        decls: 34,
         vars: 2,
-        consts: [[1, "about-container"], [1, "about-header"], [3, "line1", "line2"]],
+        consts: [[1, "about-container"], [1, "about-header"], [3, "line1", "line2"], [1, "page-contents"], [1, "about-words"], [1, "title"], ["href", "https://irwgs.columbia.edu/2020-irwgs-prize-winners-announced/"], ["href", "https://www.therationalonline.com/reading/category/IRRATIONAL+TAKES", 1, "itals"], ["href", "https://tol.org/", 1, "itals"], ["href", "https://voicesandvisionsjournal.com/", 1, "itals"], ["href", "https://www.amazon.com/New-Yorks-Best-Emerging-Poets/dp/1979352887", 1, "itals"], ["href", "https://issuu.com/collectiveadvocacyproject/docs/_sic._", 1, "itals"], ["href", "https://issuu.com/roachesaup/docs/roaches_book_for_online_publishing", 1, "itals"], ["href", "https://fellowvoices.wordpress.com/2018/10/09/sentiment-sentimentality-gendered-credibility-in-the-kavanaugh-hearings/", 1, "itals"], [1, "about-img"], ["src", "./assets/img/eliza-about.png", "alt", "headshot", "width", "100%"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
@@ -89,6 +522,90 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "\xA0\xA0\xA0\xA0\xA0Eliza Siegel ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " is a New Jersey-based interdisciplinary writer and artist who recently graduated from Barnard College of Columbia University with a BA in American Studies. She is the recipient of the 2020 John Demos Prize in American Studies and the 2020 Women and Gender Studies Prize administered by Columbia University\u2019s Institute for Research on Women, Gender, and Sexuality (read her interview with IRWGS ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "). Most days, she can be found writing scathing political satire for ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " The Rational, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " or else digging up carrots on a small New Jersey farm. In the past, she worked as an editorial intern at the Prague-based newsroom ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " Transitions Online. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Her poetry and editorial writing has appeared in ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " Voices and Visions ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Literary Journal, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " New York\u2019s Best Emerging Poets: An Anthology, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " [sic.] ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Literary Journal, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Roaches ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " Literary Journal, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " Fellow Voices, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " and more. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -104,7 +621,7 @@
           }
         },
         directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__["PageHeaderComponent"]],
-        styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MifQ== */"]
+        styles: [".about-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.about-header[_ngcontent-%COMP%] {\n    width: 100%;\n}\n\n.page-contents[_ngcontent-%COMP%] {\n    margin: 2em 0 2em 0;\n    width: 84%;\n    font-size: 1.1em;\n    font-weight: 300;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n}\n\n.about-img[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 2em;\n}\n\n.about-img[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    border-radius: 4em;\n}\n\n.about-words[_ngcontent-%COMP%] {\n    width: 100%;\n    line-height: 2em;\n}\n\n.title[_ngcontent-%COMP%] {\n    font-family: 'Bellefair', serif;\n    font-size: 1.4em;\n    line-height: 1.6em;\n    color: #626262;\n}\n\na[_ngcontent-%COMP%] {\n    color: #516A44;\n    font-weight: 400;\n    font-family: 'Bellefair', serif;\n    font-size: 1.2em;\n    line-height: 1.8em;\n}\n\na[_ngcontent-%COMP%]:hover {\n    cursor: pointer;\n    color: #DF7234;\n    opacity: .8;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQixhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7O0FBQ0E7SUFDSSxVQUFVO0lBQ1YsZ0JBQWdCO0FBQ3BCOztBQUNBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUNBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLCtCQUErQjtJQUMvQixnQkFBZ0I7SUFDaEIsa0JBQWtCO0lBQ2xCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLCtCQUErQjtJQUMvQixnQkFBZ0I7SUFDaEIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGNBQWM7SUFDZCxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFib3V0LWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5hYm91dC1oZWFkZXIge1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4ucGFnZS1jb250ZW50cyB7XG4gICAgbWFyZ2luOiAyZW0gMCAyZW0gMDtcbiAgICB3aWR0aDogODQlO1xuICAgIGZvbnQtc2l6ZTogMS4xZW07XG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5hYm91dC1pbWcge1xuICAgIHdpZHRoOiA2MCU7XG4gICAgbWFyZ2luLWxlZnQ6IDJlbTtcbn1cbi5hYm91dC1pbWcgaW1nIHtcbiAgICBib3JkZXItcmFkaXVzOiA0ZW07XG59XG4uYWJvdXQtd29yZHMge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGxpbmUtaGVpZ2h0OiAyZW07XG59XG5cbi50aXRsZSB7XG4gICAgZm9udC1mYW1pbHk6ICdCZWxsZWZhaXInLCBzZXJpZjtcbiAgICBmb250LXNpemU6IDEuNGVtO1xuICAgIGxpbmUtaGVpZ2h0OiAxLjZlbTtcbiAgICBjb2xvcjogIzYyNjI2Mjtcbn1cblxuYSB7XG4gICAgY29sb3I6ICM1MTZBNDQ7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LWZhbWlseTogJ0JlbGxlZmFpcicsIHNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMS4yZW07XG4gICAgbGluZS1oZWlnaHQ6IDEuOGVtO1xufVxuXG5hOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgY29sb3I6ICNERjcyMzQ7XG4gICAgb3BhY2l0eTogLjg7XG59XG5cbiJdfQ== */"]
       });
       /*@__PURE__*/
 
@@ -170,23 +687,23 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "img", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -198,17 +715,17 @@
         if (rf & 2) {
           var d_r1 = ctx.$implicit;
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", d_r1.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](d_r1.title);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](d_r1.subtitle);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", d_r1.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       }
 
@@ -236,7 +753,7 @@
         selectors: [["app-home"]],
         decls: 1,
         vars: 1,
-        consts: [[4, "ngFor", "ngForOf"], [1, "home-content"], [1, "wordContainer"], [1, "title"], [1, "descrip"], [1, "imgContainer"], ["width", "54%", 3, "src"]],
+        consts: [[4, "ngFor", "ngForOf"], [1, "home-content"], [1, "imgContainer"], ["width", "54%", 3, "src"], [1, "wordContainer"], [1, "title"], [1, "descrip"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, HomeComponent_section_0_Template, 9, 3, "section", 0);
@@ -247,7 +764,7 @@
           }
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]],
-        styles: ["*[_ngcontent-%COMP%] {\n  font-family: 'Bellefair', serif;\n\n}\n\n.home-content[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.imgContainer[_ngcontent-%COMP%] {\n  width: 50%;\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  margin-left: 8%;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: flex;\n  border-radius: 22%;\n}\n\n.wordContainer[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin-left: 16%;\n}\n\n.title[_ngcontent-%COMP%] {\n  \n  font-size: 2.8em;\n}\n\n.descrip[_ngcontent-%COMP%] {\n  width: 80%;\n  font-size: 2em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwrQkFBK0I7O0FBRWpDOztBQUVBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7RUFDYiwyQkFBMkI7RUFDM0IsbUJBQW1CO0VBQ25CLGVBQWU7QUFDakI7O0FBQ0E7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsNkJBQTZCO0VBQzdCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixjQUFjO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgZm9udC1mYW1pbHk6ICdCZWxsZWZhaXInLCBzZXJpZjtcblxufVxuXG4uaG9tZS1jb250ZW50IHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5pbWdDb250YWluZXIge1xuICB3aWR0aDogNTAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1hcmdpbi1sZWZ0OiA4JTtcbn1cbmltZyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGJvcmRlci1yYWRpdXM6IDIyJTtcbn1cblxuLndvcmRDb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgbWFyZ2luLWxlZnQ6IDE2JTtcbn1cblxuLnRpdGxlIHtcbiAgLyp0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOyovXG4gIGZvbnQtc2l6ZTogMi44ZW07XG59XG5cbi5kZXNjcmlwIHtcbiAgd2lkdGg6IDgwJTtcbiAgZm9udC1zaXplOiAyZW07XG59XG4iXX0= */"]
+        styles: ["*[_ngcontent-%COMP%] {\n  font-family: 'Bellefair', serif;\n\n}\n\n.home-content[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.imgContainer[_ngcontent-%COMP%] {\n  width: 50%;\n  display: flex;\n  align-items: center;\n  margin-left: 16%;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: flex;\n  border-radius: 22%;\n}\n\n.wordContainer[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.title[_ngcontent-%COMP%] {\n  font-size: 2.8em;\n}\n\n.descrip[_ngcontent-%COMP%] {\n  width: 80%;\n  font-size: 2em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwrQkFBK0I7O0FBRWpDOztBQUVBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZ0JBQWdCO0FBQ2xCOztBQUNBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGNBQWM7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xuICBmb250LWZhbWlseTogJ0JlbGxlZmFpcicsIHNlcmlmO1xuXG59XG5cbi5ob21lLWNvbnRlbnQge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLmltZ0NvbnRhaW5lciB7XG4gIHdpZHRoOiA1MCU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1hcmdpbi1sZWZ0OiAxNiU7XG59XG5pbWcge1xuICBkaXNwbGF5OiBmbGV4O1xuICBib3JkZXItcmFkaXVzOiAyMiU7XG59XG5cbi53b3JkQ29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi50aXRsZSB7XG4gIGZvbnQtc2l6ZTogMi44ZW07XG59XG5cbi5kZXNjcmlwIHtcbiAgd2lkdGg6IDgwJTtcbiAgZm9udC1zaXplOiAyZW07XG59XG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -311,7 +828,7 @@
       !*** ./src/app/data-directory.ts ***!
       \***********************************/
 
-    /*! exports provided: HOMEWORDS, WORKCARDS, CONNECTS */
+    /*! exports provided: HOMEWORDS, WORKCARDS, PHOTOS, CONNECTS */
 
     /***/
     function Pky(module, __webpack_exports__, __webpack_require__) {
@@ -333,18 +850,28 @@
       /* harmony export (binding) */
 
 
+      __webpack_require__.d(__webpack_exports__, "PHOTOS", function () {
+        return PHOTOS;
+      });
+      /* harmony export (binding) */
+
+
       __webpack_require__.d(__webpack_exports__, "CONNECTS", function () {
         return CONNECTS;
       });
+      /*----Home Page-----*/
+
 
       var HOMEWORDS = [{
         title: 'Eliza Siegel',
         subtitle: 'is a journalist and storyteller based in New Jersey.',
         imgUrl: './assets/img/eliza.png'
       }];
+      /*----Work Page-----*/
+
       var WORKCARDS = [{
         title: 'Politics and Culture Satirist',
-        description: 'Check out my weekly column, “Irrational Takes,” where I satirize politics and culture' + 'for the feminist news and storytelling site The Rational.',
+        description: 'Check out my monthly column, “Irrational Takes,” where I satirize politics and culture' + 'for the feminist news and storytelling site The Rational.',
         imgUrl: './assets/img/teacup.png',
         color: '#DA6B40',
         link: 'https://www.therationalonline.com/reading/category/IRRATIONAL+TAKES',
@@ -364,6 +891,37 @@
         link: '',
         hoverText: 'Learn more'
       }];
+      /*----About Page-----*/
+
+      /*----Photos Page-----*/
+
+      var PHOTOS = [{
+        backgroundImg: './assets/img/roadtrip.png',
+        hoverColor: '#CCE8F1',
+        title: 'Monoscapes',
+        description: 'August, 2019. An interplanetary drive across the country.',
+        link: '/monoscapes'
+      }, {
+        backgroundImg: './assets/img/etretat.png',
+        hoverColor: '#F2D298',
+        title: 'Pale sunset',
+        description: 'Paris and Étretat, May-June, 2017. A vivid sunburst appearing and vanishing ' + 'behind purple clouds.',
+        link: '/pale-sunset'
+      }, {
+        backgroundImg: './assets/img/paris.png',
+        hoverColor: '#DCDCDC',
+        title: 'Paris, then to the coast',
+        description: 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across ' + 'the grey sky.',
+        link: '/paris-coast'
+      }, {
+        backgroundImg: './assets/img/moms.png',
+        hoverColor: '#6B9359',
+        title: 'Small elations',
+        description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' + 'oversaturated summer.',
+        link: '/small-elations'
+      }];
+      /*----Footer-----*/
+
       var CONNECTS = [{
         title: 'email',
         imgUrl: './assets/img/mail.png',
@@ -378,6 +936,104 @@
         link: 'https://www.linkedin.com/in/eliza-siegel-032380147'
       }];
       /***/
+    },
+
+    /***/
+    "RimG":
+    /*!***********************************************************!*\
+      !*** ./src/app/photos/monoscapes/monoscapes.component.ts ***!
+      \***********************************************************/
+
+    /*! exports provided: MonoscapesComponent */
+
+    /***/
+    function RimG(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "MonoscapesComponent", function () {
+        return MonoscapesComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../../page-header/page-header.component */
+      "zAId");
+
+      var MonoscapesComponent = /*#__PURE__*/function () {
+        function MonoscapesComponent() {
+          _classCallCheck(this, MonoscapesComponent);
+
+          this.headerLine1 = 'Monoscapes';
+          this.headerLine2 = '';
+        }
+
+        _createClass(MonoscapesComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return MonoscapesComponent;
+      }();
+
+      MonoscapesComponent.ɵfac = function MonoscapesComponent_Factory(t) {
+        return new (t || MonoscapesComponent)();
+      };
+
+      MonoscapesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: MonoscapesComponent,
+        selectors: [["app-monoscapes"]],
+        decls: 3,
+        vars: 2,
+        consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"]],
+        template: function MonoscapesComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("line1", ctx.headerLine1)("line2", ctx.headerLine2);
+          }
+        },
+        directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__["PageHeaderComponent"]],
+        styles: [".page-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.header-container[_ngcontent-%COMP%] {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGhvdG9zL21vbm9zY2FwZXMvbW9ub3NjYXBlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9waG90b3MvbW9ub3NjYXBlcy9tb25vc2NhcGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5oZWFkZXItY29udGFpbmVyIHtcbiAgICB3aWR0aDogMTAwJTtcbn1cbiJdfQ== */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MonoscapesComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-monoscapes',
+            templateUrl: './monoscapes.html',
+            styleUrls: ['./monoscapes.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
     },
 
     /***/
@@ -557,6 +1213,36 @@
       var _footer_footer_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! ./footer/footer.component */
       "fp1T");
+      /* harmony import */
+
+
+      var _photos_photos_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+      /*! ./photos/photos.component */
+      "1PKx");
+      /* harmony import */
+
+
+      var _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+      /*! ./photos/monoscapes/monoscapes.component */
+      "RimG");
+      /* harmony import */
+
+
+      var _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+      /*! ./photos/france-color/france-color.component */
+      "+rDN");
+      /* harmony import */
+
+
+      var _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+      /*! ./photos/france-bw/france-bw.component */
+      "qoP9");
+      /* harmony import */
+
+
+      var _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+      /*! ./photos/summer/summer.component */
+      "2hwA");
 
       var AppModule = function AppModule() {
         _classCallCheck(this, AppModule);
@@ -576,7 +1262,7 @@
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _work_work_component__WEBPACK_IMPORTED_MODULE_6__["WorkComponent"], _work_work_card_work_card_component__WEBPACK_IMPORTED_MODULE_7__["WorkCardComponent"], _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_8__["PageHeaderComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_10__["FooterComponent"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _work_work_component__WEBPACK_IMPORTED_MODULE_6__["WorkComponent"], _work_work_card_work_card_component__WEBPACK_IMPORTED_MODULE_7__["WorkCardComponent"], _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_8__["PageHeaderComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_10__["FooterComponent"], _photos_photos_component__WEBPACK_IMPORTED_MODULE_11__["PhotosComponent"], _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_12__["MonoscapesComponent"], _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_13__["FranceColorComponent"], _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_14__["FranceBwComponent"], _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_15__["SummerComponent"]],
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]]
         });
       })();
@@ -587,7 +1273,7 @@
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
           args: [{
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _work_work_component__WEBPACK_IMPORTED_MODULE_6__["WorkComponent"], _work_work_card_work_card_component__WEBPACK_IMPORTED_MODULE_7__["WorkCardComponent"], _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_8__["PageHeaderComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_10__["FooterComponent"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _work_work_component__WEBPACK_IMPORTED_MODULE_6__["WorkComponent"], _work_work_card_work_card_component__WEBPACK_IMPORTED_MODULE_7__["WorkCardComponent"], _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_8__["PageHeaderComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_9__["AboutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_10__["FooterComponent"], _photos_photos_component__WEBPACK_IMPORTED_MODULE_11__["PhotosComponent"], _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_12__["MonoscapesComponent"], _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_13__["FranceColorComponent"], _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_14__["FranceBwComponent"], _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_15__["SummerComponent"]],
             imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
@@ -937,7 +1623,7 @@
           }
         },
         directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_2__["PageHeaderComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _work_card_work_card_component__WEBPACK_IMPORTED_MODULE_4__["WorkCardComponent"]],
-        styles: [".work-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.work-cards[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-evenly;\n  width: 100%;\n}\n\n.single-card[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 28%;\n  height: 100%;\n}\n\n.resume-button[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 2em;\n  border: solid 1px #333333;\n  border-radius: 3em;\n  width: 8em;\n  padding-top: 1em;\n  padding-bottom: 1em;\n  align-self: center;\n}\n\n.resume-button[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  color: #DF7234;\n  border-color: #DF7234;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLG1CQUFtQjtFQUNuQiw2QkFBNkI7RUFDN0IsV0FBVztBQUNiOztBQUVBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC93b3JrL3dvcmsuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi53b3JrLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG4ud29yay1jYXJkcyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGZsZXgtd3JhcDogd3JhcDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4uc2luZ2xlLWNhcmQge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICB3aWR0aDogMjglO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5yZXN1bWUtYnV0dG9uIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1hcmdpbi10b3A6IDJlbTtcbiAgYm9yZGVyOiBzb2xpZCAxcHggIzMzMzMzMztcbiAgYm9yZGVyLXJhZGl1czogM2VtO1xuICB3aWR0aDogOGVtO1xuICBwYWRkaW5nLXRvcDogMWVtO1xuICBwYWRkaW5nLWJvdHRvbTogMWVtO1xuICBhbGlnbi1zZWxmOiBjZW50ZXI7XG59XG5cbi5yZXN1bWUtYnV0dG9uOmhvdmVyIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBjb2xvcjogI0RGNzIzNDtcbiAgYm9yZGVyLWNvbG9yOiAjREY3MjM0O1xufVxuIl19 */"]
+        styles: [".work-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.work-header[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.work-cards[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-evenly;\n  width: 100%;\n}\n\n.single-card[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  width: 28%;\n  height: 100%;\n}\n\n.resume-button[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 2em;\n  border: solid 1px #333333;\n  border-radius: 3em;\n  width: 8em;\n  padding-top: 1em;\n  padding-bottom: 1em;\n  align-self: center;\n}\n\n.resume-button[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  color: #DF7234;\n  border-color: #DF7234;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtFQUN2QixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxXQUFXO0FBQ2I7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0VBQ25CLGVBQWU7RUFDZix5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixnQkFBZ0I7RUFDaEIsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0VBQ2QscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud29yay1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLndvcmstaGVhZGVyIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi53b3JrLWNhcmRzIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgZmxleC13cmFwOiB3cmFwO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5zaW5nbGUtY2FyZCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIHdpZHRoOiAyOCU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJlc3VtZS1idXR0b24ge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbWFyZ2luLXRvcDogMmVtO1xuICBib3JkZXI6IHNvbGlkIDFweCAjMzMzMzMzO1xuICBib3JkZXItcmFkaXVzOiAzZW07XG4gIHdpZHRoOiA4ZW07XG4gIHBhZGRpbmctdG9wOiAxZW07XG4gIHBhZGRpbmctYm90dG9tOiAxZW07XG4gIGFsaWduLXNlbGY6IGNlbnRlcjtcbn1cblxuLnJlc3VtZS1idXR0b246aG92ZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGNvbG9yOiAjREY3MjM0O1xuICBib3JkZXItY29sb3I6ICNERjcyMzQ7XG59XG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -1011,7 +1697,7 @@
         selectors: [["app-navbar"]],
         decls: 15,
         vars: 0,
-        consts: [[1, "nav-container-web"], [1, "lhs"], ["routerLink", "/home", "routerLinkActive", "activePage", 1, "nav-item"], [1, "underline"], [1, "rhs"], ["routerLink", "/work", "routerLinkActive", "activePage", 1, "nav-item"], ["routerLink", "/about", "routerLinkActive", "activePage", 1, "nav-item"], ["routerLink", "/photos", "routerLinkActive", "activePage", 1, "nav-item"]],
+        consts: [[1, "nav-container-web"], [1, "lhs"], ["routerLink", "/home", "routerLinkActive", "activePage", 1, "nav-item"], [1, "underline"], [1, "rhs"], ["routerLink", "/work", "routerLinkActive", "activePage", 1, "nav-item"], ["routerLink", "/photos", "routerLinkActive", "activePage", 1, "nav-item"], ["routerLink", "/about", "routerLinkActive", "activePage", 1, "nav-item"]],
         template: function NavbarComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1040,7 +1726,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " ABOUT ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " PHOTOS ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 3);
 
@@ -1048,7 +1734,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " PHOTOS ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " ABOUT ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "div", 3);
 
@@ -1071,6 +1757,104 @@
             selector: 'app-navbar',
             templateUrl: './navbar.component.html',
             styleUrls: ['./navbar.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
+    "qoP9":
+    /*!*********************************************************!*\
+      !*** ./src/app/photos/france-bw/france-bw.component.ts ***!
+      \*********************************************************/
+
+    /*! exports provided: FranceBwComponent */
+
+    /***/
+    function qoP9(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "FranceBwComponent", function () {
+        return FranceBwComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../../page-header/page-header.component */
+      "zAId");
+
+      var FranceBwComponent = /*#__PURE__*/function () {
+        function FranceBwComponent() {
+          _classCallCheck(this, FranceBwComponent);
+
+          this.headerLine1 = 'Paris, then to the coast';
+          this.headerLine2 = 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across the' + ' grey sky.';
+        }
+
+        _createClass(FranceBwComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return FranceBwComponent;
+      }();
+
+      FranceBwComponent.ɵfac = function FranceBwComponent_Factory(t) {
+        return new (t || FranceBwComponent)();
+      };
+
+      FranceBwComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: FranceBwComponent,
+        selectors: [["app-france-bw"]],
+        decls: 3,
+        vars: 2,
+        consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"]],
+        template: function FranceBwComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-page-header", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("line1", ctx.headerLine1)("line2", ctx.headerLine2);
+          }
+        },
+        directives: [_page_header_page_header_component__WEBPACK_IMPORTED_MODULE_1__["PageHeaderComponent"]],
+        styles: [".page-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.header-container[_ngcontent-%COMP%] {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGhvdG9zL2ZyYW5jZS1idy9mcmFuY2UtYncuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL3Bob3Rvcy9mcmFuY2UtYncvZnJhbmNlLWJ3LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaGVhZGVyLWNvbnRhaW5lciB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FranceBwComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-france-bw',
+            templateUrl: './france-bw.component.html',
+            styleUrls: ['./france-bw.component.css']
           }]
         }], function () {
           return [];
@@ -1129,6 +1913,36 @@
       var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! ./about/about.component */
       "84zG");
+      /* harmony import */
+
+
+      var _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! ./photos/photos.component */
+      "1PKx");
+      /* harmony import */
+
+
+      var _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! ./photos/monoscapes/monoscapes.component */
+      "RimG");
+      /* harmony import */
+
+
+      var _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      /*! ./photos/france-color/france-color.component */
+      "+rDN");
+      /* harmony import */
+
+
+      var _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      /*! ./photos/france-bw/france-bw.component */
+      "qoP9");
+      /* harmony import */
+
+
+      var _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! ./photos/summer/summer.component */
+      "2hwA");
 
       var routes = [{
         path: 'home',
@@ -1140,7 +1954,26 @@
         path: 'about',
         component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
       }, {
+        path: 'photos',
+        component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__["PhotosComponent"]
+      }, {
+        path: 'monoscapes',
+        component: _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_6__["MonoscapesComponent"]
+      }, {
+        path: 'pale-sunset',
+        component: _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_7__["FranceColorComponent"]
+      }, {
+        path: 'paris-coast',
+        component: _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_8__["FranceBwComponent"]
+      }, {
+        path: 'small-elations',
+        component: _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_9__["SummerComponent"]
+      }, {
         path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+      }, {
+        path: '**',
         redirectTo: '/home',
         pathMatch: 'full'
       }];
@@ -1377,7 +2210,7 @@
           }
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]],
-        styles: ["*[_ngcontent-%COMP%] {\n  color: #FFF;\n}\n.work-card-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  padding: 2em;\n  border-radius: 80px;\n  height: 21em;\n  width: 14em;\n  border: solid 1px;\n}\n.workIcon[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n.workTitle[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  font-family: 'Bellefair', serif;\n}\n.workDescrip[_ngcontent-%COMP%] {\n  margin-top: 1em;\n  font-weight: 300;\n  margin-bottom: 2em;\n\n}\n.work-card-container[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  background-color: #FFFFFF;\n}\n.hover-content[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  font-size: 1.4em;\n  font-family: 'Bellefair', serif;\n\n}\na[_ngcontent-%COMP%]:active, a[_ngcontent-%COMP%], a[_ngcontent-%COMP%]:hover {\n  text-decoration: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLWNhcmQvd29yay1jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0FBQ2I7QUFDQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWixtQkFBbUI7RUFDbkIsWUFBWTtFQUNaLFdBQVc7RUFDWCxpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLGVBQWU7QUFDakI7QUFDQTtFQUNFLGdCQUFnQjtFQUNoQiwrQkFBK0I7QUFDakM7QUFFQTtFQUNFLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsa0JBQWtCOztBQUVwQjtBQUVBO0VBQ0UsZUFBZTtFQUNmLHlCQUF5QjtBQUMzQjtBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixnQkFBZ0I7RUFDaEIsK0JBQStCOztBQUVqQztBQUVBO0VBQ0UscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLWNhcmQvd29yay1jYXJkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgY29sb3I6ICNGRkY7XG59XG4ud29yay1jYXJkLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBwYWRkaW5nOiAyZW07XG4gIGJvcmRlci1yYWRpdXM6IDgwcHg7XG4gIGhlaWdodDogMjFlbTtcbiAgd2lkdGg6IDE0ZW07XG4gIGJvcmRlcjogc29saWQgMXB4O1xufVxuXG4ud29ya0ljb24ge1xuICBtYXJnaW4tdG9wOiAyZW07XG59XG4ud29ya1RpdGxlIHtcbiAgZm9udC1zaXplOiAxLjRlbTtcbiAgZm9udC1mYW1pbHk6ICdCZWxsZWZhaXInLCBzZXJpZjtcbn1cblxuLndvcmtEZXNjcmlwIHtcbiAgbWFyZ2luLXRvcDogMWVtO1xuICBmb250LXdlaWdodDogMzAwO1xuICBtYXJnaW4tYm90dG9tOiAyZW07XG5cbn1cblxuLndvcmstY2FyZC1jb250YWluZXI6aG92ZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XG59XG5cbi5ob3Zlci1jb250ZW50IHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMS40ZW07XG4gIGZvbnQtZmFtaWx5OiAnQmVsbGVmYWlyJywgc2VyaWY7XG5cbn1cblxuYTphY3RpdmUsIGEsIGE6aG92ZXIge1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG4iXX0= */"]
+        styles: ["*[_ngcontent-%COMP%] {\n  color: #FFF;\n}\n.work-card-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 2em;\n  border-radius: 80px;\n  height: 21em;\n  width: 16em;\n  border: solid 1px;\n}\n.workIcon[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n.workTitle[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  font-family: 'Bellefair', serif;\n}\n.workDescrip[_ngcontent-%COMP%] {\n  margin-top: 1em;\n  font-weight: 300;\n  margin-bottom: 2em;\n\n}\n.work-card-container[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  background-color: #FFFFFF;\n}\n.hover-content[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  font-size: 1.4em;\n  font-family: 'Bellefair', serif;\n\n}\na[_ngcontent-%COMP%]:active, a[_ngcontent-%COMP%], a[_ngcontent-%COMP%]:hover {\n  text-decoration: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLWNhcmQvd29yay1jYXJkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0FBQ2I7QUFDQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLFlBQVk7RUFDWixXQUFXO0VBQ1gsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxlQUFlO0FBQ2pCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsK0JBQStCO0FBQ2pDO0FBRUE7RUFDRSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7QUFDM0I7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsZ0JBQWdCO0VBQ2hCLCtCQUErQjs7QUFFakM7QUFFQTtFQUNFLHFCQUFxQjtBQUN2QiIsImZpbGUiOiJzcmMvYXBwL3dvcmsvd29yay1jYXJkL3dvcmstY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7XG4gIGNvbG9yOiAjRkZGO1xufVxuLndvcmstY2FyZC1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgcGFkZGluZzogMmVtO1xuICBib3JkZXItcmFkaXVzOiA4MHB4O1xuICBoZWlnaHQ6IDIxZW07XG4gIHdpZHRoOiAxNmVtO1xuICBib3JkZXI6IHNvbGlkIDFweDtcbn1cblxuLndvcmtJY29uIHtcbiAgbWFyZ2luLXRvcDogMmVtO1xufVxuLndvcmtUaXRsZSB7XG4gIGZvbnQtc2l6ZTogMS40ZW07XG4gIGZvbnQtZmFtaWx5OiAnQmVsbGVmYWlyJywgc2VyaWY7XG59XG5cbi53b3JrRGVzY3JpcCB7XG4gIG1hcmdpbi10b3A6IDFlbTtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgbWFyZ2luLWJvdHRvbTogMmVtO1xuXG59XG5cbi53b3JrLWNhcmQtY29udGFpbmVyOmhvdmVyIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGO1xufVxuXG4uaG92ZXItY29udGVudCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBmb250LXNpemU6IDEuNGVtO1xuICBmb250LWZhbWlseTogJ0JlbGxlZmFpcicsIHNlcmlmO1xuXG59XG5cbmE6YWN0aXZlLCBhLCBhOmhvdmVyIHtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuIl19 */"]
       });
       /*@__PURE__*/
 
@@ -1441,6 +2274,30 @@
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+
+      function PageHeaderComponent_div_4_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.line2);
+        }
+      }
 
       var PageHeaderComponent = /*#__PURE__*/function () {
         function PageHeaderComponent() {
@@ -1466,9 +2323,9 @@
           line1: "line1",
           line2: "line2"
         },
-        decls: 6,
+        decls: 5,
         vars: 2,
-        consts: [[1, "header-container"], [1, "header-content"], [1, "line1"], [1, "line2"]],
+        consts: [[1, "header-container"], [1, "header-content"], [1, "line1"], ["class", "line2", 4, "ngIf"], [1, "line2"]],
         template: function PageHeaderComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1481,11 +2338,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PageHeaderComponent_div_4_Template, 2, 1, "div", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1497,12 +2350,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.line1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.line2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.line2 != "");
           }
         },
-        styles: [".header-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.header-content[_ngcontent-%COMP%] {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-self: center;\n  align-items: center;\n  margin-bottom: 2em;\n  border: 1px solid #333333;\n  border-radius: 50px;\n  padding: 2em;\n}\n.line1[_ngcontent-%COMP%], .line2[_ngcontent-%COMP%] {\n  font-family: 'Bellefair', serif;\n  font-size: 1.4em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZS1oZWFkZXIvcGFnZS1oZWFkZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQixZQUFZO0FBQ2Q7QUFFQTtFQUNFLCtCQUErQjtFQUMvQixnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlLWhlYWRlci9wYWdlLWhlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmhlYWRlci1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5oZWFkZXItY29udGVudCB7XG4gIHdpZHRoOiA4MCU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1zZWxmOiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1hcmdpbi1ib3R0b206IDJlbTtcbiAgYm9yZGVyOiAxcHggc29saWQgIzMzMzMzMztcbiAgYm9yZGVyLXJhZGl1czogNTBweDtcbiAgcGFkZGluZzogMmVtO1xufVxuXG4ubGluZTEsIC5saW5lMiB7XG4gIGZvbnQtZmFtaWx5OiAnQmVsbGVmYWlyJywgc2VyaWY7XG4gIGZvbnQtc2l6ZTogMS40ZW07XG59XG5cbiJdfQ== */"]
+        directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]],
+        styles: [".header-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.header-content[_ngcontent-%COMP%] {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-self: center;\n  align-items: center;\n  margin-bottom: 2em;\n  border: 1px solid #626262;\n\n  border-radius: 4em;\n  padding: 1.6em;\n}\n.line1[_ngcontent-%COMP%], .line2[_ngcontent-%COMP%] {\n  font-family: 'Bellefair', serif;\n  font-size: 1.4em;\n  color: #525252;\n}\n.line2[_ngcontent-%COMP%] {\n  margin-top: 1em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZS1oZWFkZXIvcGFnZS1oZWFkZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qiw4QkFBOEI7RUFDOUIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIseUJBQXlCOztFQUV6QixrQkFBa0I7RUFDbEIsY0FBYztBQUNoQjtBQUVBO0VBQ0UsK0JBQStCO0VBQy9CLGdCQUFnQjtFQUNoQixjQUFjO0FBQ2hCO0FBRUE7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvcGFnZS1oZWFkZXIvcGFnZS1oZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oZWFkZXItY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4uaGVhZGVyLWNvbnRlbnQge1xuICB3aWR0aDogODAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMmVtO1xuICBib3JkZXI6IDFweCBzb2xpZCAjNjI2MjYyO1xuXG4gIGJvcmRlci1yYWRpdXM6IDRlbTtcbiAgcGFkZGluZzogMS42ZW07XG59XG5cbi5saW5lMSwgLmxpbmUyIHtcbiAgZm9udC1mYW1pbHk6ICdCZWxsZWZhaXInLCBzZXJpZjtcbiAgZm9udC1zaXplOiAxLjRlbTtcbiAgY29sb3I6ICM1MjUyNTI7XG59XG5cbi5saW5lMiB7XG4gIG1hcmdpbi10b3A6IDFlbTtcbn1cblxuIl19 */"]
       });
       /*@__PURE__*/
 
