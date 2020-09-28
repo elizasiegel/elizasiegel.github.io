@@ -28,7 +28,7 @@ export const WORKCARDS: WorkCard[] = [
     imgUrl: './assets/img/spyglass.png',
     color: '#EFA31E',
     link: '',
-    hoverText: 'Learn more',
+    hoverText: 'View Publications',
   },
   {
     title: 'Storyteller',
@@ -38,7 +38,7 @@ export const WORKCARDS: WorkCard[] = [
     imgUrl: './assets/img/map.png',
     color: '#516A44',
     link: '',
-    hoverText: 'Learn more',
+    hoverText: 'View Publications',
   },
 ];
 

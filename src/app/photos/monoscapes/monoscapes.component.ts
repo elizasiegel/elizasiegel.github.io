@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonoscapesComponent implements OnInit {
   headerLine1 = 'Monoscapes';
-  headerLine2 = '';
+  headerLine2 = 'August, 2019. An interplanetary drive across the country.';
 
   constructor() { }
 

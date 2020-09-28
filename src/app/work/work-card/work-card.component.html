@@ -1,5 +1,6 @@
-<div class="work-card-container" (mouseenter)="hover=true" (mouseleave)="hover=false"
-     [ngStyle]="styleCard()" >
+<a class="work-card-container" href="{{cardLink}}" target="_blank"
+   (mouseenter)="hover=true" (mouseleave)="hover=false"
+   [ngStyle]="styleCard()" >
   <div class="main-content">
     <div *ngIf="!hover" [ngStyle]="{'visibility': 'none'}">
       <div class="workIcon" >
@@ -9,9 +10,8 @@
       <div class="workDescrip">{{cardDescrip}}</div>
     </div>
   </div>
-  <a class="hover-content" *ngIf="hover" [ngStyle]="{'color':cardColor}"
-     href="{{cardLink}}" target="_blank">
+  <div class="hover-content" *ngIf="hover" [ngStyle]="{'color':cardColor}">
     {{cardHoverText}}
-  </a>
-</div>
+  </div>
+</a>
 
