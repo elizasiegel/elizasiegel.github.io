@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'work', component: WorkComponent},
   { path: 'about', component: AboutComponent},
   { path: 'photos', component: PhotosComponent},
-  { path: 'monoscapes', component: MonoscapesComponent},
+  { path: 'moonscapes', component: MonoscapesComponent},
   { path: 'pale-sunset', component: FranceColorComponent},
   { path: 'paris-coast', component: FranceBwComponent},
   { path: 'small-elations', component: SummerComponent},

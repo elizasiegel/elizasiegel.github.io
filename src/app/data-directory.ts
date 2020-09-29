@@ -50,9 +50,9 @@ export const PHOTOS: PhotoCard[] = [
   {
     backgroundImg: './assets/img/roadtrip.png',
     hoverColor: '#CCE8F1',
-    title: 'Monoscapes',
+    title: 'Moonscapes',
     description: 'August, 2019. An interplanetary drive across the country.',
-    link: '/monoscapes',
+    link: '/moonscapes',
   },
   {
     backgroundImg: './assets/img/etretat.png',
@@ -71,7 +71,7 @@ export const PHOTOS: PhotoCard[] = [
     link: '/paris-coast',
   },
   {
-    backgroundImg: './assets/img/moms.png',
+    backgroundImg: './assets/img/elations.png',
     hoverColor: '#6B9359',
     title: 'Small elations',
     description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' +

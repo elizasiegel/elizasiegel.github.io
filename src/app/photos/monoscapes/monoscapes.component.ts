@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./monoscapes.css']
 })
 export class MonoscapesComponent implements OnInit {
-  headerLine1 = 'Monoscapes';
+  headerLine1 = 'Moonscapes';
   headerLine2 = 'August, 2019. An interplanetary drive across the country.';
 
   constructor() { }

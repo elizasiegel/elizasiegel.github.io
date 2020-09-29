@@ -467,9 +467,9 @@ const PHOTOS = [
     {
         backgroundImg: './assets/img/roadtrip.png',
         hoverColor: '#CCE8F1',
-        title: 'Monoscapes',
+        title: 'Moonscapes',
         description: 'August, 2019. An interplanetary drive across the country.',
-        link: '/monoscapes',
+        link: '/moonscapes',
     },
     {
         backgroundImg: './assets/img/etretat.png',
@@ -488,7 +488,7 @@ const PHOTOS = [
         link: '/paris-coast',
     },
     {
-        backgroundImg: './assets/img/moms.png',
+        backgroundImg: './assets/img/elations.png',
         hoverColor: '#6B9359',
         title: 'Small elations',
         description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' +
@@ -535,18 +535,19 @@ __webpack_require__.r(__webpack_exports__);
 
 class MonoscapesComponent {
     constructor() {
-        this.headerLine1 = 'Monoscapes';
+        this.headerLine1 = 'Moonscapes';
         this.headerLine2 = 'August, 2019. An interplanetary drive across the country.';
     }
     ngOnInit() {
     }
 }
 MonoscapesComponent.ɵfac = function MonoscapesComponent_Factory(t) { return new (t || MonoscapesComponent)(); };
-MonoscapesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MonoscapesComponent, selectors: [["app-monoscapes"]], decls: 3, vars: 2, consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"]], template: function MonoscapesComponent_Template(rf, ctx) { if (rf & 1) {
+MonoscapesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MonoscapesComponent, selectors: [["app-monoscapes"]], decls: 4, vars: 2, consts: [[1, "page-container"], [1, "header-container"], [3, "line1", "line2"], [1, "page-contents"]], template: function MonoscapesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-page-header", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -838,7 +839,7 @@ class WorkComponent {
     }
 }
 WorkComponent.ɵfac = function WorkComponent_Factory(t) { return new (t || WorkComponent)(); };
-WorkComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorkComponent, selectors: [["app-work"]], decls: 8, vars: 3, consts: [[1, "work-container"], [1, "work-header"], [3, "line1", "line2"], [1, "work-cards"], ["class", "single-card", 4, "ngFor", "ngForOf"], [1, "resume-button"], [1, "single-card"], [3, "cardTitle", "cardDescrip", "cardImgURL", "cardColor", "cardLink", "cardHoverText"]], template: function WorkComponent_Template(rf, ctx) { if (rf & 1) {
+WorkComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorkComponent, selectors: [["app-work"]], decls: 8, vars: 3, consts: [[1, "work-container"], [1, "work-header"], [3, "line1", "line2"], [1, "work-cards"], ["class", "single-card", 4, "ngFor", "ngForOf"], ["href", "./assets/docs/Eliza-Siegel-Resume.pdf", "target", "_blank", 1, "resume-button"], [1, "single-card"], [3, "cardTitle", "cardDescrip", "cardImgURL", "cardColor", "cardLink", "cardHoverText"]], template: function WorkComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -847,7 +848,7 @@ WorkComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, WorkComponent_div_5_Template, 2, 6, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Resume");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1011,7 +1012,7 @@ const routes = [
     { path: 'work', component: _work_work_component__WEBPACK_IMPORTED_MODULE_3__["WorkComponent"] },
     { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
     { path: 'photos', component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__["PhotosComponent"] },
-    { path: 'monoscapes', component: _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_6__["MonoscapesComponent"] },
+    { path: 'moonscapes', component: _photos_monoscapes_monoscapes_component__WEBPACK_IMPORTED_MODULE_6__["MonoscapesComponent"] },
     { path: 'pale-sunset', component: _photos_france_color_france_color_component__WEBPACK_IMPORTED_MODULE_7__["FranceColorComponent"] },
     { path: 'paris-coast', component: _photos_france_bw_france_bw_component__WEBPACK_IMPORTED_MODULE_8__["FranceBwComponent"] },
     { path: 'small-elations', component: _photos_summer_summer_component__WEBPACK_IMPORTED_MODULE_9__["SummerComponent"] },
