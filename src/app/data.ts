@@ -26,3 +26,8 @@ export interface PhotoCard {
   description: string;
   link: string;
 }
+
+export interface Photo {
+  id: number;
+  imgUrl: string;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MOONSCAPES } from '../../data-directory';
 
 @Component({
   selector: 'app-monoscapes',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MonoscapesComponent implements OnInit {
   headerLine1 = 'Moonscapes';
   headerLine2 = 'August, 2019. An interplanetary drive across the country.';
+  imgs = MOONSCAPES;
 
   constructor() { }
 

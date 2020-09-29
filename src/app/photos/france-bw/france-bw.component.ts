@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PARIS } from '../../data-directory';
 
 @Component({
   selector: 'app-france-bw',
@@ -9,6 +10,7 @@ export class FranceBwComponent implements OnInit {
   headerLine1 = 'Paris, then to the coast';
   headerLine2 = 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across the' +
       ' grey sky.';
+  imgs = PARIS;
 
   constructor() { }
 

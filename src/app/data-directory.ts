@@ -1,4 +1,4 @@
-import {WordsImg, WorkCard, Connect, PhotoCard } from './data';
+import {WordsImg, WorkCard, Connect, PhotoCard, Photo } from './data';
 
 /*----Home Page-----*/
 export const HOMEWORDS: WordsImg[] = [
@@ -27,8 +27,8 @@ export const WORKCARDS: WorkCard[] = [
       ' of a prominent New York judge.',
     imgUrl: './assets/img/spyglass.png',
     color: '#EFA31E',
-    link: '',
-    hoverText: 'View Publications',
+    link: './assets/docs/Eliza-Siegel-Journalism-Clips.pdf',
+    hoverText: 'View Journalism Publications',
   },
   {
     title: 'Storyteller',
@@ -37,8 +37,8 @@ export const WORKCARDS: WorkCard[] = [
       ' and photography.',
     imgUrl: './assets/img/map.png',
     color: '#516A44',
-    link: '',
-    hoverText: 'View Publications',
+    link: './assets/docs/Eliza-Siegel-Creative-Clips.pdf',
+    hoverText: 'View Creative Publications',
   },
 ];
 
@@ -56,7 +56,7 @@ export const PHOTOS: PhotoCard[] = [
   },
   {
     backgroundImg: './assets/img/etretat.png',
-    hoverColor: '#F2D298',
+    hoverColor: '#F8E4B9',
     title: 'Pale sunset',
     description: 'Paris and Étretat, May-June, 2017. A vivid sunburst appearing and vanishing ' +
         'behind purple clouds.',
@@ -72,7 +72,7 @@ export const PHOTOS: PhotoCard[] = [
   },
   {
     backgroundImg: './assets/img/elations.png',
-    hoverColor: '#6B9359',
+    hoverColor: '#83AB71',
     title: 'Small elations',
     description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' +
         'oversaturated summer.',
@@ -80,6 +80,253 @@ export const PHOTOS: PhotoCard[] = [
   },
 ];
 
+/*-----Moonscapes imgs----*/
+export const MOONSCAPES: Photo[] = [
+  {
+    id: 0,
+    imgUrl: './assets/img/moonscapes/moonscapes-1.png',
+  },
+  {
+    id: 1,
+    imgUrl: './assets/img/moonscapes/moonscapes-2.png',
+  },
+  {
+    id: 2,
+    imgUrl: './assets/img/moonscapes/moonscapes-3.png',
+  },
+  {
+    id: 3,
+    imgUrl: './assets/img/moonscapes/moonscapes-4.png',
+  },
+  {
+    id: 4,
+    imgUrl: './assets/img/moonscapes/moonscapes-5.png',
+  },
+  {
+    id: 5,
+    imgUrl: './assets/img/moonscapes/moonscapes-6.png',
+  },
+  {
+    id: 6,
+    imgUrl: './assets/img/moonscapes/moonscapes-7.png',
+  },
+  {
+    id: 7,
+    imgUrl: './assets/img/moonscapes/moonscapes-8.png',
+  },
+  {
+    id: 8,
+    imgUrl: './assets/img/moonscapes/moonscapes-9.png',
+  },
+  {
+    id: 9,
+    imgUrl: './assets/img/moonscapes/moonscapes-10.png',
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/moonscapes/moonscapes-11.png',
+  },
+  {
+    id: 11,
+    imgUrl: './assets/img/moonscapes/moonscapes-12.png',
+  },
+  {
+    id: 12,
+    imgUrl: './assets/img/moonscapes/moonscapes-13.png',
+  },
+  {
+    id: 13,
+    imgUrl: './assets/img/moonscapes/moonscapes-14.png',
+  },
+  {
+    id: 14,
+    imgUrl: './assets/img/moonscapes/moonscapes-15.png',
+  },
+  {
+    id: 15,
+    imgUrl: './assets/img/moonscapes/moonscapes-16.png',
+  },
+  {
+    id: 16,
+    imgUrl: './assets/img/moonscapes/moonscapes-19.png',
+  },
+  {
+    id: 17,
+    imgUrl: './assets/img/moonscapes/moonscapes-18.png',
+  },
+  {
+    id: 18,
+    imgUrl: './assets/img/moonscapes/moonscapes-17.png',
+  },
+];
+
+/*-----Pale Sunset Imgs----*/
+export const PALESUNSET: Photo[] = [
+  {
+    id: 0,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-1.png'
+  },
+  {
+    id: 1,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-2.png'
+  },
+  {
+    id: 2,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-3.png'
+  },
+  {
+    id: 3,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-4.png'
+  },
+  {
+    id: 4,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-5.png'
+  },
+  {
+    id: 5,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-6.png'
+  },
+  {
+    id: 6,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-7.png'
+  },
+  {
+    id: 7,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-8.png'
+  },
+  {
+    id: 8,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-9.png'
+  },
+  {
+    id: 9,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-10.png'
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-11.png'
+  },
+  {
+    id: 11,
+    imgUrl: './assets/img/pale-sunset/pale-sunset-12.png'
+  },
+];
+
+/*-----Paris, coast imgs----*/
+export const PARIS: Photo[] = [
+  {
+    id: 0,
+    imgUrl: './assets/img/paris-coast/paris-1.png',
+  },
+  {
+    id: 1,
+    imgUrl: './assets/img/paris-coast/paris-2.png',
+  },
+  {
+    id: 2,
+    imgUrl: './assets/img/paris-coast/paris-3.png',
+  },
+  {
+    id: 3,
+    imgUrl: './assets/img/paris-coast/paris-4.png',
+  },
+  {
+    id: 4,
+    imgUrl: './assets/img/paris-coast/paris-5.png',
+  },
+  {
+    id: 5,
+    imgUrl: './assets/img/paris-coast/paris-6.png',
+  },
+  {
+    id: 6,
+    imgUrl: './assets/img/paris-coast/paris-7.png',
+  },
+  {
+    id: 7,
+    imgUrl: './assets/img/paris-coast/paris-8.png',
+  },
+  {
+    id: 8,
+    imgUrl: './assets/img/paris-coast/paris-9.png',
+  },
+  {
+    id: 9,
+    imgUrl: './assets/img/paris-coast/paris-10.png',
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/paris-coast/paris-11.png',
+  },
+  {
+    id: 11,
+    imgUrl: './assets/img/paris-coast/paris-12.png',
+  },
+  {
+    id: 12,
+    imgUrl: './assets/img/paris-coast/paris-13.png',
+  },
+  {
+    id: 13,
+    imgUrl: './assets/img/paris-coast/paris-14.png',
+  },
+  {
+    id: 14,
+    imgUrl: './assets/img/paris-coast/paris-15.png',
+  },
+  {
+    id: 15,
+    imgUrl: './assets/img/paris-coast/paris-16.png',
+  },
+];
+
+/*-----Small Elations Imgs----*/
+export const ELATIONS: Photo[] = [
+  {
+    id: 0,
+    imgUrl: './assets/img/small-elations/elations-1.png'
+  },
+  {
+    id: 1,
+    imgUrl: './assets/img/small-elations/elations-2.png'
+  },
+  {
+    id: 2,
+    imgUrl: './assets/img/small-elations/elations-3.png'
+  },
+  {
+    id: 3,
+    imgUrl: './assets/img/small-elations/elations-4.png'
+  },
+  {
+    id: 4,
+    imgUrl: './assets/img/small-elations/elations-5.png'
+  },
+  {
+    id: 5,
+    imgUrl: './assets/img/small-elations/elations-6.png'
+  },
+  {
+    id: 6,
+    imgUrl: './assets/img/small-elations/elations-7.png'
+  },
+  {
+    id: 8,
+    imgUrl: './assets/img/small-elations/elations-9.png'
+  },
+  {
+    id: 9,
+    imgUrl: './assets/img/small-elations/elations-10.png'
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/small-elations/elations-11.png'
+  },
+  {
+    id: 7,
+    imgUrl: './assets/img/small-elations/elations-8.png'
+  },
+];
 
 /*----Footer-----*/
 export const CONNECTS: Connect[] = [

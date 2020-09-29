@@ -4,16 +4,9 @@
       <app-page-header [line1]="headerLine1" [line2]="headerLine2"></app-page-header>
     </div>
     <div class="page-contents" *ngFor="let p of photos">
-      <div class="photo-card" (mouseenter)="hover=true" (mouseleave)="hover=false">
-        <div class="no-hover" *ngIf="!hover">
-          <img src="{{p.backgroundImg}}" width="100%" alt="{{p.title}}">
-        </div>
-        <div class="hover" *ngIf="hover" routerLink="{{p.link}}"
-             [ngStyle]="{'background-color': p.hoverColor}">
-          <img src="{{p.backgroundImg}}" width="100%" [ngStyle]="{'visibility': 'hidden'}">
-          <div class="text">{{p.title}}</div>
-        </div>
-      </div>
+      <app-photo-card [cardTitle]="p.title" [cardColor]="p.hoverColor"
+                      [cardLink]="p.link" [cardImg]="p.backgroundImg">
+      </app-photo-card>
     </div>
   </div>
 </section>

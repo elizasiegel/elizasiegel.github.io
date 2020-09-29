@@ -1,0 +1,12 @@
+<div class="photo-card-container">
+    <div class="photo-card" (mouseenter)="hover=true" (mouseleave)="hover=false">
+        <div class="no-hover" *ngIf="!hover">
+            <img src="{{cardImg}}" width="100%" alt="{{cardTitle}}">
+        </div>
+        <div class="hover" *ngIf="hover" routerLink="{{cardLink}}"
+             [ngStyle]="{'background-color': cardColor}">
+          <img src="{{cardImg}}" width="100%" [ngStyle]="{'visibility': 'hidden'}">
+          <div class="text">{{cardTitle}}</div>
+        </div>
+    </div>
+</div>

@@ -12,8 +12,8 @@ export class WorkCardComponent implements OnInit {
   @Input() cardColor: string;
   @Input() cardLink: string;
   @Input() cardHoverText: string;
-
   hover: boolean;
+
   constructor() {
   }
 
