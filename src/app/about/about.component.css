@@ -67,6 +67,7 @@
 .about-words {
     width: 100%;
     line-height: 2em;
+    text-align: justify;
 }
 
 .title {
