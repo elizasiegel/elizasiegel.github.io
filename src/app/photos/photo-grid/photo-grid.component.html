@@ -1,5 +1,97 @@
  <div class="grid-container">
-     <div class="grid-img" *ngFor="let i of imgs">
-         <img src="{{i.imgUrl}}" width="100%" alt="pale-sunset img">
+     <!--top container, first 10 images (id: 0-9)-->
+     <div class="top-container">
+         <!--left col-->
+         <div class="left-col">
+             <div class="left-top">
+                 <div class="img-container">
+                     <img src="{{imgs[0].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+                 <div class="img-container">
+                     <img src="{{imgs[1].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+             <div class="left-bottom">
+                 <div class="img-container">
+                    <img src="{{imgs[3].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+             <div class="left-row">
+                 <div class="img-container">
+                     <img src="{{imgs[4].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+                 <div class="img-container">
+                     <img src="{{imgs[5].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+             <div class="left-bottom">
+                 <div class="img-container">
+                     <img src="{{imgs[9].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+         </div>
+         <!--right col--->
+         <div class="right-col">
+             <div class="img-container">
+                 <img src="{{imgs[2].imgUrl}}" width="100%">
+             </div>
+             <div class="img-container">
+                 <img src="{{imgs[7].imgUrl}}" width="100%" alt="film-img">
+             </div>
+             <div class="img-container">
+                 <img src="{{imgs[8].imgUrl}}" width="100%" alt="film-img">
+             </div>
+             <div class="img-container">
+                 <img src="{{imgs[6].imgUrl}}" width="100%" alt="film-img">
+             </div>
+
+         </div>
      </div>
+     <!--second container, next 9 images, (id: 10-18)-->
+     <div class="second-container">
+         <div class="top-row">
+            <div class="img-container" *ngIf="imgs[10]">
+                <img src="{{imgs[10].imgUrl}}" width="100%" alt="film-img">
+            </div>
+             <div class="img-container" *ngIf="imgs[11]">
+                <img src="{{imgs[11].imgUrl}}" width="100%" alt="film-img">
+            </div>
+             <div class="img-container" *ngIf="imgs[12]">
+                <img src="{{imgs[12].imgUrl}}" width="100%" alt="film-img">
+            </div>
+         </div>
+         <div class="second-row">
+             <div class="left-col">
+                 <div class="img-container" *ngIf="imgs[13]">
+                     <img src="{{imgs[13].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+                 <div class="img-container" *ngIf="imgs[14]">
+                     <img src="{{imgs[14].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+             <div class="right-col">
+                 <div class="img-container" *ngIf="imgs[15]">
+                     <img src="{{imgs[15].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+         </div>
+         <div class="third-row">
+             <div class="left-col">
+                 <div class="img-container" *ngIf="imgs[16]">
+                     <img src="{{imgs[16].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+             <div class="right-col">
+                 <div class="img-container" *ngIf="imgs[17]">
+                     <img src="{{imgs[17].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+                 <div class="img-container" *ngIf="imgs[18]">
+                     <img src="{{imgs[18].imgUrl}}" width="100%" alt="film-img">
+                 </div>
+             </div>
+         </div>
+     </div>
+
+
+
  </div>

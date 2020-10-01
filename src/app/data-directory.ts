@@ -14,7 +14,7 @@ export const WORKCARDS: WorkCard[] = [
   {
     title: 'Politics and Culture Satirist',
     description: 'Check out my monthly column, “Irrational Takes,” where I satirize politics and culture' +
-      'for the feminist news and storytelling site The Rational.',
+      ' for the feminist news and storytelling site The Rational.',
     imgUrl: './assets/img/teacup.png',
     color: '#DA6B40',
     link: 'https://www.therationalonline.com/reading/category/IRRATIONAL+TAKES',
@@ -88,11 +88,11 @@ export const MOONSCAPES: Photo[] = [
   },
   {
     id: 1,
-    imgUrl: './assets/img/moonscapes/moonscapes-2.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-5.png',
   },
   {
     id: 2,
-    imgUrl: './assets/img/moonscapes/moonscapes-3.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-17.png',
   },
   {
     id: 3,
@@ -100,63 +100,63 @@ export const MOONSCAPES: Photo[] = [
   },
   {
     id: 4,
-    imgUrl: './assets/img/moonscapes/moonscapes-5.png',
-  },
-  {
-    id: 5,
-    imgUrl: './assets/img/moonscapes/moonscapes-6.png',
-  },
-  {
-    id: 6,
-    imgUrl: './assets/img/moonscapes/moonscapes-7.png',
-  },
-  {
-    id: 7,
-    imgUrl: './assets/img/moonscapes/moonscapes-8.png',
-  },
-  {
-    id: 8,
     imgUrl: './assets/img/moonscapes/moonscapes-9.png',
   },
   {
+    id: 5,
+    imgUrl: './assets/img/moonscapes/moonscapes-3.png',
+  },
+  {
+    id: 6,
+    imgUrl: './assets/img/moonscapes/moonscapes-6.png',
+  },
+  {
+    id: 7,
+    imgUrl: './assets/img/moonscapes/moonscapes-7.png',
+  },
+  {
+    id: 8,
+    imgUrl: './assets/img/moonscapes/moonscapes-8.png',
+  },
+  {
     id: 9,
-    imgUrl: './assets/img/moonscapes/moonscapes-10.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-2.png',
   },
   {
     id: 10,
-    imgUrl: './assets/img/moonscapes/moonscapes-11.png',
-  },
-  {
-    id: 11,
     imgUrl: './assets/img/moonscapes/moonscapes-12.png',
   },
   {
+    id: 11,
+    imgUrl: './assets/img/moonscapes/moonscapes-11.png',
+  },
+  {
     id: 12,
-    imgUrl: './assets/img/moonscapes/moonscapes-13.png',
-  },
-  {
-    id: 13,
-    imgUrl: './assets/img/moonscapes/moonscapes-14.png',
-  },
-  {
-    id: 14,
     imgUrl: './assets/img/moonscapes/moonscapes-15.png',
   },
   {
+    id: 13,
+    imgUrl: './assets/img/moonscapes/moonscapes-13.png',
+  },
+  {
+    id: 14,
+    imgUrl: './assets/img/moonscapes/moonscapes-14.png',
+  },
+  {
     id: 15,
-    imgUrl: './assets/img/moonscapes/moonscapes-16.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-10.png',
   },
   {
     id: 16,
-    imgUrl: './assets/img/moonscapes/moonscapes-19.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-16.png',
   },
   {
     id: 17,
-    imgUrl: './assets/img/moonscapes/moonscapes-18.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-19.png',
   },
   {
     id: 18,
-    imgUrl: './assets/img/moonscapes/moonscapes-17.png',
+    imgUrl: './assets/img/moonscapes/moonscapes-18.png',
   },
 ];
 
@@ -248,35 +248,35 @@ export const PARIS: Photo[] = [
   },
   {
     id: 8,
-    imgUrl: './assets/img/paris-coast/paris-9.png',
-  },
-  {
-    id: 9,
-    imgUrl: './assets/img/paris-coast/paris-10.png',
-  },
-  {
-    id: 10,
     imgUrl: './assets/img/paris-coast/paris-11.png',
   },
   {
+    id: 9,
+    imgUrl: './assets/img/paris-coast/paris-15.png',
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/paris-coast/paris-9.png',
+  },
+  {
     id: 11,
-    imgUrl: './assets/img/paris-coast/paris-12.png',
+    imgUrl: './assets/img/paris-coast/paris-10.png',
   },
   {
     id: 12,
     imgUrl: './assets/img/paris-coast/paris-13.png',
   },
-  {
+    {
     id: 13,
-    imgUrl: './assets/img/paris-coast/paris-14.png',
+    imgUrl: './assets/img/paris-coast/paris-12.png',
   },
   {
     id: 14,
-    imgUrl: './assets/img/paris-coast/paris-15.png',
+    imgUrl: './assets/img/paris-coast/paris-16.png',
   },
   {
     id: 15,
-    imgUrl: './assets/img/paris-coast/paris-16.png',
+    imgUrl: './assets/img/paris-coast/paris-14.png',
   },
 ];
 
@@ -292,7 +292,7 @@ export const ELATIONS: Photo[] = [
   },
   {
     id: 2,
-    imgUrl: './assets/img/small-elations/elations-3.png'
+    imgUrl: './assets/img/small-elations/elations-8.png'
   },
   {
     id: 3,
@@ -308,23 +308,23 @@ export const ELATIONS: Photo[] = [
   },
   {
     id: 6,
-    imgUrl: './assets/img/small-elations/elations-7.png'
-  },
-  {
-    id: 8,
-    imgUrl: './assets/img/small-elations/elations-9.png'
-  },
-  {
-    id: 9,
     imgUrl: './assets/img/small-elations/elations-10.png'
   },
   {
-    id: 10,
+    id: 7,
+    imgUrl: './assets/img/small-elations/elations-9.png'
+  },
+  {
+    id: 8,
     imgUrl: './assets/img/small-elations/elations-11.png'
   },
   {
-    id: 7,
-    imgUrl: './assets/img/small-elations/elations-8.png'
+    id: 9,
+    imgUrl: './assets/img/small-elations/elations-3.png'
+  },
+  {
+    id: 10,
+    imgUrl: './assets/img/small-elations/elations-7.png'
   },
 ];
 
