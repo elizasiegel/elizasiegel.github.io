@@ -18,6 +18,7 @@ import { SummerComponent } from './photos/summer/summer.component';
 import { PhotoCardComponent } from './photos/photo-card/photo-card.component';
 import { PhotoGridComponent } from './photos/photo-grid/photo-grid.component';
 import { PhotoFooterComponent } from './photo-footer/photo-footer.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { PhotoFooterComponent } from './photo-footer/photo-footer.component';
     SummerComponent,
     PhotoCardComponent,
     PhotoGridComponent,
-    PhotoFooterComponent
+    PhotoFooterComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

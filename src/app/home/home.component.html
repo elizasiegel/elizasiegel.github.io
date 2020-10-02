@@ -1,12 +1,12 @@
-<section *ngFor="let d of data">
-  <div class="home-content">
-    <div class="imgContainer">
-      <img src="{{d.imgUrl}}" width="54%">
-    </div>
-    <div class="wordContainer">
-      <div class="title">{{d.title}}</div>
-      <div class="descrip">{{d.subtitle}}</div>
-    </div>
+<div class="home-container">
+  <div class="page-container">
+    <app-landing></app-landing>
   </div>
-</section>
+  <div class="page-container">
+    <app-work></app-work>
+  </div>
+  <div class="page-container">
+    <app-about></app-about>
+  </div>
+</div>
 

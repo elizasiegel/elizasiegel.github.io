@@ -8,9 +8,11 @@ import {MonoscapesComponent} from './photos/monoscapes/monoscapes.component';
 import {FranceColorComponent} from './photos/france-color/france-color.component';
 import {FranceBwComponent} from './photos/france-bw/france-bw.component';
 import {SummerComponent} from './photos/summer/summer.component';
+import {LandingComponent} from './landing/landing.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
+  { path: 'landing', component: LandingComponent},
   { path: 'work', component: WorkComponent},
   { path: 'about', component: AboutComponent},
   { path: 'photos', component: PhotosComponent},

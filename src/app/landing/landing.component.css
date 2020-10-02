@@ -1,0 +1,39 @@
+* {
+  font-family: 'Bellefair', serif;
+
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 16%;
+}
+
+img {
+  display: flex;
+  border-radius: 4em;
+}
+
+.wordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 2.8em;
+}
+
+.descrip {
+  width: 80%;
+  font-size: 2em;
+}

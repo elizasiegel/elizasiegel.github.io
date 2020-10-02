@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { WorkComponent } from "../work/work.component";
-import { HOMEWORDS } from "../data-directory";
 
 
 @Component({
@@ -9,11 +7,7 @@ import { HOMEWORDS } from "../data-directory";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  data = HOMEWORDS;
-
   constructor() { }
-
   ngOnInit(): void {
   }
-
 }
