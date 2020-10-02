@@ -4,7 +4,7 @@
          <!--left col-->
          <div class="left-col">
              <div class="left-top">
-                 <div class="img-container">
+                 <div class="img-container" (click)="isClicked=!isClicked" [ngStyle]="enterFullScreen()">
                      <img src="{{imgs[0].imgUrl}}" width="100%" alt="film-img">
                  </div>
                  <div class="img-container">

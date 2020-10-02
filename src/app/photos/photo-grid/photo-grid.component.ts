@@ -8,10 +8,17 @@ import { Photo } from '../../data';
 })
 export class PhotoGridComponent implements OnInit {
   @Input() imgs: Photo[];
+  isClicked: boolean;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  enterFullScreen() {
+    if (this.isClicked) {
+       return {
+       };
+    }
+  }
 }
