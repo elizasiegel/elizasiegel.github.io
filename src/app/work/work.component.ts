@@ -9,7 +9,7 @@ import { WORKCARDS } from '../data-directory';
 })
 export class WorkComponent implements OnInit {
   cards = WORKCARDS;
-  headerLine1 = 'I write things and also work on a farm.';
+  headerLine1 = 'Explore below selected works and publications.';
 
   constructor() { }
 

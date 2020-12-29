@@ -8,3 +8,7 @@
 .header-container {
     width: 100%;
 }
+
+section {
+    padding: 4em 0 4em 0;
+}

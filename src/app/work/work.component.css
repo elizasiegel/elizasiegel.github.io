@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .work-header {
@@ -16,11 +17,13 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  margin: 2em 0 2em 2em;
 }
 
 .single-card {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 28%;
   height: 100%;
 }
@@ -42,4 +45,10 @@
   cursor: pointer;
   color: #DF7234;
   border-color: #DF7234;
+}
+
+
+section {
+  padding: 0;
+  margin-top: -6em;
 }

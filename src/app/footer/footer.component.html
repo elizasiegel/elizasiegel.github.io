@@ -10,16 +10,15 @@
             <div class="title">Site Map</div>
             <div class="items">
                 <div class="site-item" routerLink="/home">HOME</div>
-                <div class="site-item" routerLink="/work">WORK</div>
-                <div class="site-item" routerLink="/photos">PHOTOS</div>
                 <div class="site-item" routerLink="/about">ABOUT</div>
+                <div class="site-item" routerLink="/photos">PHOTOS</div>
             </div>
         </div>
         <div class="connect">
             <div class="title">Connect</div>
             <div class="items" *ngFor="let c of connects">
                 <a class="site-item" href="{{c.link}}" target="_blank">
-                    <img src="{{c.imgUrl}}" width="18%">
+                    <img src="{{c.imgUrl}}" width="16%">
                 </a>
             </div>
         </div>

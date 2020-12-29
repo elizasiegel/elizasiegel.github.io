@@ -15,3 +15,7 @@
     justify-content: center;
     align-items: center;
 }
+
+section {
+    padding: 0 0 4em 0;
+}

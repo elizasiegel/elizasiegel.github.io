@@ -13,5 +13,6 @@ a, a:active {
 }
 
 section {
-  padding-bottom: 4em
+  padding: 4em 0 4em 0;
 }
+

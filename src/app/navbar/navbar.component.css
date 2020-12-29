@@ -6,13 +6,18 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 3em;
+  margin: -4em -4em 0 -4em;
+  padding: 2em 0 .4em 0;
   align-items: center;
+  position: fixed;
+  background-color: #FFFFFF;
+  opacity: .92;
 }
 
 .lhs {
-  margin-left: 2em;
+  margin-left: 6em;
   font-size: 1.4em;
+
 }
 
 .lhs .nav-item {
@@ -26,7 +31,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-left: 2em;
-  margin-right: 3em;
+  margin-right: 7.8em;
 }
 
 .rhs .nav-item {

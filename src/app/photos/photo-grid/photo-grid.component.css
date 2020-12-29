@@ -11,10 +11,10 @@ img {
 .img-container {
     margin: .4em;
 }
-.img-container:hover {
+/*.img-container:hover {
     cursor: pointer;
-    opacity: .7;
-}
+    //opacity: .7;
+}*/
 /*---top container (top 10 imgs)---*/
 .top-container {
     display: flex;

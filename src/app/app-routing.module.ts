@@ -13,7 +13,7 @@ import {LandingComponent} from './landing/landing.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'landing', component: LandingComponent},
-  { path: 'work', component: WorkComponent},
+  /*{ path: 'work', component: HomeComponent },*/
   { path: 'about', component: AboutComponent},
   { path: 'photos', component: PhotosComponent},
   { path: 'moonscapes', component: MonoscapesComponent},
@@ -25,7 +25,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
