@@ -1,6 +1,7 @@
-import {Component, OnInit, Inject, Input, HostListener} from '@angular/core';
+import { Component, OnInit, Inject, Input, HostListener } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { PageScrollService } from 'ngx-page-scroll-core';
+import { GlobalConstants } from '../app.component';
 
 
 @Component({
@@ -10,6 +11,7 @@ import { PageScrollService } from 'ngx-page-scroll-core';
 })
 export class HomeComponent implements OnInit {
   @Input() scrollEl: HTMLElement;
+  isMobile = GlobalConstants.isMobile;
   constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) {
   }
     ngOnInit(): void {
@@ -18,11 +20,5 @@ export class HomeComponent implements OnInit {
         scrollTarget: '.theEnd',
       });
     }
-  scrollFunction(id: string): void {
-    /*const el = document.getElementById(id);
-    this.scrollEl = el;
-    this.scrollEl.scrollIntoView();
-    return;*/
-  }
 
 }

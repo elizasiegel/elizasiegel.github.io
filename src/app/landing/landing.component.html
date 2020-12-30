@@ -1,11 +1,28 @@
-<section *ngFor="let d of data">
-  <div class="home-content">
-    <div class="imgContainer">
-      <img src="{{d.imgUrl}}" width="48%">
+<div class="web-landing-container" *ngIf="!isMobile">
+  <section *ngFor="let d of data">
+    <div class="home-content">
+      <div class="imgContainer">
+        <img src="{{d.imgUrl}}" width="48%">
+      </div>
+      <div class="wordContainer">
+        <div class="title">{{d.title}}</div>
+        <div class="descrip">{{d.subtitle}}</div>
+      </div>
     </div>
-    <div class="wordContainer">
-      <div class="title">{{d.title}}</div>
-      <div class="descrip">{{d.subtitle}}</div>
+  </section>
+</div>
+
+<div class="mobile-landing-container" *ngIf="isMobile">
+  <section *ngFor="let d of data">
+    <div class="home-content">
+      <div class="wordContainer">
+        <div class="title">{{d.title}}</div>
+        <div class="descrip">{{d.subtitle}}</div>
+      </div>
+      <div class="imgContainer">
+        <img src="{{d.imgUrl}}" width="100%">
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
+

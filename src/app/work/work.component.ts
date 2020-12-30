@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { WorkCardComponent } from './work-card/work-card.component';
 import { WORKCARDS } from '../data-directory';
+import {GlobalConstants} from '../app.component';
 
 @Component({
   selector: 'app-work',
@@ -10,6 +11,7 @@ import { WORKCARDS } from '../data-directory';
 export class WorkComponent implements OnInit {
   cards = WORKCARDS;
   headerLine1 = 'Explore below selected works and publications.';
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

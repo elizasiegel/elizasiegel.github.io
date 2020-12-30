@@ -8,5 +8,11 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'Eliza Siegel';
+  isMobile = (GlobalConstants.screenWidth < 600);
   constructor() {}
+}
+
+export class GlobalConstants {
+  public static screenWidth: number = window.innerWidth;
+  public static isMobile: boolean = (GlobalConstants.screenWidth < 600);
 }

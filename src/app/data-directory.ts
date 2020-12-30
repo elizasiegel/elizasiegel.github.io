@@ -17,7 +17,7 @@ export const WORKCARDS: WorkCard[] = [
       ' for the feminist news and storytelling site The Rational.',
     imgUrl: './assets/img/teacup.png',
     color: '#DA6B40',
-    link: 'https://www.therationalonline.com/reading/category/IRRATIONAL+TAKES',
+    link: 'https://www.therationalonline.com/reading/category/Irrational+Takes',
     hoverText: 'View Column',
   },
   {
@@ -27,7 +27,8 @@ export const WORKCARDS: WorkCard[] = [
       ' of a prominent New York judge.',
     imgUrl: './assets/img/spyglass.png',
     color: '#EFA31E',
-    link: './assets/docs/Eliza-Siegel-Journalism-Clips.pdf',
+    /*link: './assets/docs/Eliza-Siegel-Journalism-Clips.pdf',*/
+    link: 'https://drive.google.com/file/d/18PohyW6XyHJY0QTSmrDeilzuW8OGYtTx/view?usp=sharing',
     hoverText: 'View Journalism Publications',
   },
   {
@@ -37,7 +38,8 @@ export const WORKCARDS: WorkCard[] = [
       ' and photography.',
     imgUrl: './assets/img/map.png',
     color: '#516A44',
-    link: './assets/docs/Eliza-Siegel-Creative-Clips.pdf',
+    /*link: './assets/docs/Eliza-Siegel-Creative-Clips.pdf',*/
+    link: 'https://drive.google.com/file/d/13wDbL8SoMLfAwUK1xpAFLMnCAJBTDxpo/view?usp=sharing',
     hoverText: 'View Creative Publications',
   },
 ];

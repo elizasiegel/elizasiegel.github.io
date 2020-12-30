@@ -1,4 +1,4 @@
-<div class="home-web" >
+<div class="home-web" *ngIf="!isMobile">
   <div class="home-container">
     <div id="landingPage" class="page-container">
       <app-landing></app-landing>
@@ -9,6 +9,16 @@
     <!--<div id="aboutPage" class="page-container">
       <app-about></app-about>
     </div>-->
+  </div>
+</div>
+<div class="home-mobile" *ngIf="isMobile">
+  <div class="home-container">
+    <div id="landingPage" class="page-container">
+      <app-landing></app-landing>
+    </div>
+    <div id="workPage" class="page-container">
+      <app-work></app-work>
+    </div>
   </div>
 </div>
 

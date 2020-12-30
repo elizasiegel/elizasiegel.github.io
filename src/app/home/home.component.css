@@ -75,3 +75,8 @@
   background-color: #DF7234;
   opacity: 0;
 }
+
+/*----mobile----*/
+.home-mobile .page-container{
+  margin-bottom: 2em;
+}

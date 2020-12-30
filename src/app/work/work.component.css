@@ -52,3 +52,18 @@ section {
   padding: 0;
   margin-top: -6em;
 }
+
+/*---mobile---*/
+.mobile-container .work-cards {
+  flex-direction: column;
+  margin: 0 0 1em 0;
+}
+
+.mobile-container .single-card {
+  width: 72%;
+  margin-bottom: 1em;
+}
+
+.mobile-container section {
+  margin-top: -2em;
+}

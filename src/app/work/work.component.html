@@ -1,17 +1,48 @@
-<section>
-  <!--top header-->
-  <div class="work-container">
-    <div class="work-header">
-      <app-page-header [line1]="headerLine1" [line2]="''"></app-page-header>
-    </div>
-    <div class="work-cards">
-      <div class="single-card" *ngFor="let card of cards">
-        <app-work-card [cardTitle]="card.title" [cardDescrip]="card.description"
-                       [cardImgURL]="card.imgUrl" [cardColor]="card.color"
-                       [cardLink]="card.link" [cardHoverText]="card.hoverText">
-        </app-work-card>
+<div class="web-container" *ngIf="!isMobile">
+  <section>
+    <!--top header-->
+    <div class="work-container">
+      <div class="work-header">
+        <app-page-header [line1]="headerLine1" [line2]="''"></app-page-header>
       </div>
+      <div class="work-cards">
+        <div class="single-card" *ngFor="let card of cards">
+          <app-work-card [cardTitle]="card.title" [cardDescrip]="card.description"
+                         [cardImgURL]="card.imgUrl" [cardColor]="card.color"
+                         [cardLink]="card.link" [cardHoverText]="card.hoverText">
+          </app-work-card>
+        </div>
+      </div>
+      <!--<a class="resume-button" href="./assets/docs/Eliza-Siegel-Resume.pdf" target="_blank">Resume</a>-->
+      <a class="resume-button" href="https://drive.google.com/file/d/1IByerD1FT_2IYK2d-yUmzo5s_VU70M8-/view?usp=sharing"
+         target="_blank">
+        Resume
+      </a>
     </div>
-    <a class="resume-button" href="./assets/docs/Eliza-Siegel-Resume.pdf" target="_blank">Resume</a>
-  </div>
-</section>
+  </section>
+</div>
+
+<div class="mobile-container" *ngIf="isMobile">
+  <section>
+    <!--top header-->
+    <div class="work-container">
+      <div class="work-header">
+        <app-page-header [line1]="headerLine1" [line2]="''"></app-page-header>
+      </div>
+      <div class="work-cards">
+        <div class="single-card" *ngFor="let card of cards">
+          <app-work-card [cardTitle]="card.title" [cardDescrip]="card.description"
+                         [cardImgURL]="card.imgUrl" [cardColor]="card.color"
+                         [cardLink]="card.link" [cardHoverText]="card.hoverText">
+          </app-work-card>
+        </div>
+      </div>
+      <!--<a class="resume-button" href="./assets/docs/Eliza-Siegel-Resume.pdf" target="_blank">Resume</a>-->
+      <a class="resume-button" href="https://drive.google.com/file/d/1IByerD1FT_2IYK2d-yUmzo5s_VU70M8-/view?usp=sharing"
+         target="_blank">
+        Resume
+      </a>
+    </div>
+  </section>
+</div>
+
