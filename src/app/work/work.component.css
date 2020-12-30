@@ -60,20 +60,23 @@ section {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .mobile-container .work-cards {
   flex-direction: column;
-  margin: 0 0 1em 0;
+  margin: 0 0 1em -2em;
+  width: 72%;
 }
 
 .mobile-container .single-card {
-  width: 72%;
+  width: 100%;
   margin-bottom: 2em;
 }
 
 .mobile-container section {
-  margin-top: -2em;
+  margin-top: -3em;
 }
 
 .mobile-container .resume-button {

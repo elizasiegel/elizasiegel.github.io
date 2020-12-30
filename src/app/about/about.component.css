@@ -93,3 +93,19 @@
     opacity: .8;
 }
 
+/*----mobile---*/
+.mobile-about .page-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 0 0;
+}
+
+.mobile-about .about-img {
+    margin: 0 0 2em 0;
+    width: 70%;
+
+}
+
+.mobile-about img {
+    border-radius: 2em;
+}
