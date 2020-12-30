@@ -68,14 +68,13 @@
       <div class="about-header">
         <div class="header-container">
           <div class="header-content">
-            <div class="line1">Reach me by email at
-              <a href="mailto:siegel.eliza@gmail.com">siegel.eliza(at)gmail.com</a>
-            </div>
-            <div class="line2">
-              Follow me on Twitter
-              <a href="https://twitter.com/ElizaISiegel" target="_blank">@ElizaISiegel</a>
-              or connect with me on
-              <a href="https://www.linkedin.com/in/eliza-siegel-032380147" target="_blank">LinkedIn.</a>
+            <div class="line1"> Get in touch. </div>
+            <div class="line2" >
+              <div class="items" *ngFor="let c of connects">
+                <a class="site-item" href="{{c.link}}" target="_blank" >
+                  <img src="{{c.imgUrl}}" width="20%" alt="connect-icon">
+                </a>
+              </div>
             </div>
           </div>
         </div>

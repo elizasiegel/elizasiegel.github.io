@@ -348,3 +348,22 @@ export const CONNECTS: Connect[] = [
     link: 'https://www.linkedin.com/in/eliza-siegel-032380147',
   }
 ];
+
+/*----Dark Colored Footer-----*/
+export const DARKCONNECTS: Connect[] = [
+  {
+    title: 'email',
+    imgUrl: './assets/img/mail-grey.png',
+    link: 'mailto:siegel.eliza@gmail.com',
+  },
+  {
+    title: 'twitter',
+    imgUrl: './assets/img/twitter-grey.png',
+    link: 'https://twitter.com/ElizaISiegel',
+  },
+  {
+    title: 'linkedin',
+    imgUrl: './assets/img/linkedin-grey.png',
+    link: 'https://www.linkedin.com/in/eliza-siegel-032380147',
+  }
+];

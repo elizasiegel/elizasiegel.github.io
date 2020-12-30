@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CONNECTS } from "../data-directory";
+import { CONNECTS } from '../data-directory';
+import { GlobalConstants } from '../app.component';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +9,7 @@ import { CONNECTS } from "../data-directory";
 })
 export class FooterComponent implements OnInit {
   connects = CONNECTS;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

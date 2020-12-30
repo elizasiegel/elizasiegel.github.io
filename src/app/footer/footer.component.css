@@ -68,6 +68,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    font-weight: 300;
+    opacity: .9;
 }
 
 .rhs .site-item {
@@ -84,3 +86,40 @@
 .rhs .site-item:hover {
     opacity: .7;
 }
+
+/*---mobile---*/
+.mobile-footer-container {
+    padding: 0;
+    margin: 0;
+    background-color: #516A44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-footer-container .title {
+    display: flex;
+    margin-bottom: 1em;
+    opacity: .9;
+}
+
+.mobile-footer-container .descrip {
+    font-weight: 300;
+    opacity: .85;
+    font-size: .9em;
+    margin: 1em 2em 1em 2em;
+}
+
+.mobile-footer-container .descrip a, .rhs .site-item {
+    opacity: 1;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.mobile-footer-container .connect .items, .mobile-footer-container .site-map .items{
+    display: flex;
+    flex-direction: row;
+}
+

@@ -26,7 +26,7 @@ export class WorkCardComponent implements OnInit {
   styleCard() {
     if (!this.isMobile) {
       if (!this.hover) {
-        return {backgroundColor: this.cardColor, borderColor: this.cardColor};
+        return { backgroundColor: this.cardColor, borderColor: this.cardColor };
       } else {
         return { backgroundColor: 'transparent', borderColor: this.cardColor};
       }
