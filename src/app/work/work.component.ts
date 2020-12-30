@@ -10,7 +10,7 @@ import {GlobalConstants} from '../app.component';
 })
 export class WorkComponent implements OnInit {
   cards = WORKCARDS;
-  headerLine1 = 'Explore below selected works and publications.';
+  headerLine1 = 'Explore selected works and publications below.';
   isMobile = GlobalConstants.isMobile;
 
   constructor() { }

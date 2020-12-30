@@ -50,8 +50,8 @@ section {
 }
 
 .mobile-landing-container .wordContainer {
-  margin: 1em 0 1em 0;
-  width: 80%;
+  margin: 4em 1em 2em 1em;
+  width: 70%;
 }
 
 .mobile-landing-container .descrip {
@@ -60,9 +60,13 @@ section {
 
 .mobile-landing-container .imgContainer {
   margin-left: 0;
-  width: 60%;
+  width: 70%;
 }
 
 .mobile-landing-container img {
   border-radius: 1em;
+}
+
+.mobile-landing-container section {
+  padding: 4em 0 0 0;
 }

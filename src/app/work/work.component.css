@@ -54,6 +54,14 @@ section {
 }
 
 /*---mobile---*/
+.mobile-container .work-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .mobile-container .work-cards {
   flex-direction: column;
   margin: 0 0 1em 0;
@@ -61,9 +69,13 @@ section {
 
 .mobile-container .single-card {
   width: 72%;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .mobile-container section {
   margin-top: -2em;
+}
+
+.mobile-container .resume-button {
+  margin-top: 0;
 }

@@ -80,3 +80,10 @@
 .home-mobile .page-container{
   margin-bottom: 2em;
 }
+
+.home-mobile .home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

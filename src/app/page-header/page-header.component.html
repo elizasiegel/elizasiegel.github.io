@@ -1,7 +1,15 @@
-<div class="header-container">
+<div class="header-container" *ngIf="!isMobile">
   <div class="header-content">
     <div class="line1">{{line1}}</div>
     <div class="line2" *ngIf="line2!=''">{{line2}}</div>
   </div>
 </div>
+
+<div class="mobile-header-container" *ngIf="isMobile">
+  <div class="header-content">
+    <div class="line1">{{line1}}</div>
+    <div class="line2" *ngIf="line2!=''">{{line2}}</div>
+  </div>
+</div>
+
 

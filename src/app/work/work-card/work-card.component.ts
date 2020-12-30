@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { GlobalConstants } from '../../app.component';
 
 @Component({
   selector: 'app-work-card',
@@ -13,6 +14,7 @@ export class WorkCardComponent implements OnInit {
   @Input() cardLink: string;
   @Input() cardHoverText: string;
   hover: boolean;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() {
   }
@@ -22,10 +24,15 @@ export class WorkCardComponent implements OnInit {
   }
 
   styleCard() {
-    if (!this.hover) {
+    if (!this.isMobile) {
+      if (!this.hover) {
+        return {backgroundColor: this.cardColor, borderColor: this.cardColor};
+      } else {
+        return { backgroundColor: 'transparent', borderColor: this.cardColor};
+      }
+    }
+    else {
       return {backgroundColor: this.cardColor, borderColor: this.cardColor};
-    } else {
-      return { backgroundColor: 'transparent', borderColor: this.cardColor};
     }
   }
 }

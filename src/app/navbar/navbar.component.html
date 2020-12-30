@@ -1,4 +1,4 @@
-<div class="nav-container-web">
+<div class="nav-container-web" *ngIf="!isMobile">
   <div class="lhs">
     <div class="nav-item" id="navHome"
          routerLink="/home" routerLinkActive="activePage">
@@ -7,10 +7,6 @@
     </div>
   </div>
   <div class="rhs">
-    <!--<div class="nav-item" id="navWork" routerLink="/work" routerLinkActive="activePage">
-      WORK
-      <div class="underline"></div>
-    </div>-->
     <div class="nav-item" id="navAbout" routerLink="/about" routerLinkActive="activePage">
       ABOUT
       <div class="underline"></div>
@@ -19,5 +15,21 @@
       PHOTOS
       <div class="underline"></div>
     </div>
+  </div>
+</div>
+
+<div class="mobile-nav-container" *ngIf="isMobile">
+  <div class="nav-item" id="navHome"
+       routerLink="/home" routerLinkActive="activePage">
+    WORK
+    <div class="underline"></div>
+  </div>
+  <div class="nav-item" id="navAbout" routerLink="/about" routerLinkActive="activePage">
+    ABOUT
+    <div class="underline"></div>
+  </div>
+  <div class="nav-item" id="navPhotos" routerLink="/photos" routerLinkActive="activePage">
+    PHOTOS
+    <div class="underline"></div>
   </div>
 </div>

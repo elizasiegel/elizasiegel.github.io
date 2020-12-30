@@ -47,3 +47,26 @@
 a:active, a, a:hover {
   text-decoration: none;
 }
+
+/*---mobile---*/
+
+.mobile-container .work-card-container {
+  padding: 2em;
+  border-radius: 2em;
+  height: 22em;
+  width: 90%;
+  border: solid 1px;
+}
+
+.mobile-container .workIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-container .viewClick {
+  text-decoration: underline;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 300;
+}
