@@ -1,4 +1,4 @@
-.grid-container {
+.grid-container, .mobile-grid-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,4 +55,19 @@ img {
     display: flex;
     flex-direction: column;
     width: 170%;
+}
+
+
+/*---mobile---*/
+.mobile-grid-container .grid-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-grid-container .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

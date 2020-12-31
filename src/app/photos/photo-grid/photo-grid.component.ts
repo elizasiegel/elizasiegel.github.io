@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Photo } from '../../data';
+import { GlobalConstants } from '../../app.component';
 
 @Component({
   selector: 'app-photo-grid',
@@ -9,6 +10,7 @@ import { Photo } from '../../data';
 export class PhotoGridComponent implements OnInit {
   @Input() imgs: Photo[];
   isClicked: boolean;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

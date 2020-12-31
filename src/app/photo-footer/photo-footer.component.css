@@ -2,10 +2,11 @@
     color: #4f4f4f;
 }
 
-.photo-footer-container {
+.photo-footer-container, .mobile-photo-footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 4em;
     margin-top: -4em;
 }
@@ -42,3 +43,13 @@
   opacity: 0;
 }
 
+/*---mobile---*/
+.mobile-photo-footer-container {
+    justify-content: center;
+    align-items: center;
+}
+.mobile-photo-footer-container .item {
+    font-family: 'Bellefair', serif;
+    font-size: 1em;
+    margin: 0 1em .5em 1em;
+}

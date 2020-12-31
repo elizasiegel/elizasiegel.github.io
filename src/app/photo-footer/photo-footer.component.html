@@ -1,4 +1,23 @@
-<div class="photo-footer-container">
+<div class="photo-footer-container" *ngIf="!isMobile">
+  <div class="item" routerLink="/moonscapes" routerLinkActive="activePage">
+    Moonscapes
+    <div class="underline"></div>
+  </div>
+  <div class="item" routerLink="/pale-sunset" routerLinkActive="activePage">
+    Pale Sunset
+    <div class="underline"></div>
+  </div>
+  <div class="item" routerLink="/paris-coast" routerLinkActive="activePage">
+    Paris, then to the coast
+    <div class="underline"></div>
+  </div>
+  <div class="item" routerLink="/small-elations" routerLinkActive="activePage">
+    Small elations
+    <div class="underline"></div>
+  </div>
+</div>
+
+<div class="mobile-photo-footer-container" *ngIf="isMobile">
   <div class="item" routerLink="/moonscapes" routerLinkActive="activePage">
     Moonscapes
     <div class="underline"></div>

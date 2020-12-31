@@ -1,4 +1,4 @@
- <div class="grid-container">
+ <div class="grid-container" *ngIf="!isMobile">
      <!--top container, first 10 images (id: 0-9)-->
      <div class="top-container">
          <!--left col-->
@@ -91,7 +91,14 @@
              </div>
          </div>
      </div>
+ </div>
 
 
-
+ <!---mobile---->
+ <div class="mobile-grid-container" *ngIf="isMobile">
+     <div *ngFor="let i of imgs" class="grid-img">
+         <div class="img-container">
+             <img src="{{i.imgUrl}}" width="90%" alt="film-img">
+         </div>
+     </div>
  </div>

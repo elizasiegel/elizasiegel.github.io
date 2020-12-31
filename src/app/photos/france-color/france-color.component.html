@@ -1,4 +1,14 @@
-<div class="page-container">
+<div class="page-container" *ngIf="!isMobile">
+    <div class="header-container">
+        <app-page-header [line1]="headerLine1" [line2]="headerLine2"></app-page-header>
+    </div>
+    <div class="page-contents">
+        <app-photo-grid [imgs]="imgs"></app-photo-grid>
+    </div>
+    <app-photo-footer></app-photo-footer>
+</div>
+
+<div class="mobile-page-container" *ngIf="isMobile">
     <div class="header-container">
         <app-page-header [line1]="headerLine1" [line2]="headerLine2"></app-page-header>
     </div>

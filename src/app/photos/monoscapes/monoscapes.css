@@ -1,4 +1,4 @@
-.page-container {
+.page-container, .mobile-page-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,4 +18,9 @@
 
 section {
     padding: 4em 0 4em 0;
+}
+
+/*---mobile----*/
+.mobile-page-container .header-container {
+    margin: 2em 0 0 0;
 }

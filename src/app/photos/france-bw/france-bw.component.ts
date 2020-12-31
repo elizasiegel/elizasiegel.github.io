@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PARIS } from '../../data-directory';
+import { GlobalConstants } from '../../app.component';
 
 @Component({
   selector: 'app-france-bw',
@@ -11,6 +12,7 @@ export class FranceBwComponent implements OnInit {
   headerLine2 = 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across the' +
       ' grey sky.';
   imgs = PARIS;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 
