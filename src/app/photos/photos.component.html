@@ -1,4 +1,17 @@
-<section>
+<section *ngIf="!isMobile">
+  <div class="photos-container">
+    <div class="photos-header">
+      <app-page-header [line1]="headerLine1" [line2]="headerLine2"></app-page-header>
+    </div>
+    <div class="page-contents" *ngFor="let p of photos">
+      <app-photo-card [cardTitle]="p.title" [cardColor]="p.hoverColor"
+                      [cardLink]="p.link" [cardImg]="p.backgroundImg">
+      </app-photo-card>
+    </div>
+  </div>
+</section>
+
+<section *ngIf="isMobile" class="mobile-photos">
   <div class="photos-container">
     <div class="photos-header">
       <app-page-header [line1]="headerLine1" [line2]="headerLine2"></app-page-header>

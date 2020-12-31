@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PHOTOS } from '../data-directory';
+import { GlobalConstants } from '../app.component';
 
 @Component({
   selector: 'app-photos',
@@ -11,6 +12,7 @@ export class PhotosComponent implements OnInit {
   headerLine2 = '';
   photos = PHOTOS;
   hover: boolean;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

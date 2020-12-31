@@ -26,25 +26,19 @@
 </div>
 
 <div class="mobile-footer-container" *ngIf="isMobile">
-    <div class="descrip">Designed and developed <br> with 🤍️ by
-        <a href="https://taylormcpherson.github.io/" target="_blank"> Taylor McPherson.</a>
-    </div>
     <div class="rhs">
-        <div class="site-map">
-            <div class="title">Site Map</div>
-            <div class="items">
-                <div class="site-item" routerLink="/home">HOME</div>
-                <div class="site-item" routerLink="/about">ABOUT</div>
-                <div class="site-item" routerLink="/photos">PHOTOS</div>
-            </div>
-        </div>
         <div class="connect">
             <div class="title">Connect</div>
-            <div class="items" *ngFor="let c of connects">
-                <a class="site-item" href="{{c.link}}" target="_blank">
-                    <img src="{{c.imgUrl}}" width="16%" alt="connect-icon">
-                </a>
+            <div class="item-container">
+                <div class="items" *ngFor="let c of connects">
+                    <a class="site-item" href="{{c.link}}" target="_blank">
+                        <img src="{{c.imgUrl}}" width="100%" alt="connect-icon">
+                    </a>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="descrip">Designed and developed <br> with 🤍️ by
+        <a href="https://taylormcpherson.github.io/" target="_blank"> Taylor McPherson.</a>
     </div>
 </div>

@@ -1,4 +1,4 @@
-.photo-card-container {
+.photo-card-container, .mobile-photo-card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,4 +36,10 @@
     position: absolute;
     font-family: 'Bellefair', serif;
     font-size: 1.6em;
+}
+
+/*--mobile--*/
+.mobile-photo-card-container .photo-card, .mobile-photo-card-container img,
+.mobile-photo-card-container .hover, .mobile-photo-card-container .no-hover{
+    border-radius: 2em;
 }

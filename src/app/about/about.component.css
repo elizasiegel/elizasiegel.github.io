@@ -106,10 +106,15 @@
     margin: 2em 0 0 0;
     font-size: 1em;
 }
+
+.mobile-about .about-header {
+    width: 92%;
+}
 .mobile-about .header-content {
     border-radius: 2em;
     margin-top: 2em;
     margin-bottom: 0;
+    padding: 1em;
 }
 
 .mobile-about .about-img {
