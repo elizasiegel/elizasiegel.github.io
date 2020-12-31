@@ -89,7 +89,7 @@
 
 /*---mobile---*/
 .mobile-footer-container {
-    padding: 0;
+    padding: 0 0 2em 0;
     margin: 0;
     background-color: #516A44;
     display: flex;
