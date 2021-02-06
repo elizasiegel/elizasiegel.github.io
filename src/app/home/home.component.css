@@ -77,16 +77,19 @@
 }
 
 /*----mobile----*/
-.home-mobile {
-  padding: 0;
-}
-.home-mobile .page-container{
-  margin-bottom: 2em;
-}
+@media screen and (max-width: 600px) {
+  .home-mobile {
+    padding: 0;
+  }
 
-.home-mobile .home-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .home-mobile .page-container {
+    margin-bottom: 2em;
+  }
+
+  .home-mobile .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

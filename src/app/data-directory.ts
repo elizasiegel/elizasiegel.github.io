@@ -5,7 +5,8 @@ export const HOMEWORDS: WordsImg[] = [
   {
     title: 'Eliza Siegel',
     subtitle: 'is a journalist and storyteller based in New Jersey.',
-    imgUrl: './assets/img/eliza.png',
+    // imgUrl: './assets/img/eliza.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1nG1l9F063-xsEwS0m5wnWKbCTD5y6wyo',
   }
 ];
 
@@ -50,14 +51,16 @@ export const WORKCARDS: WorkCard[] = [
 /*----Photos Page-----*/
 export const PHOTOS: PhotoCard[] = [
   {
-    backgroundImg: './assets/img/roadtrip.png',
+    // backgroundImg: './assets/img/roadtrip.png',
+    backgroundImg: 'https://drive.google.com/uc?export=view&id=16gNswEE0Radb9bDKt1wmbqhCIXQXbNCD',
     hoverColor: '#CCE8F1',
     title: 'Moonscapes',
     description: 'August, 2019. An interplanetary drive across the country.',
     link: '/moonscapes',
   },
   {
-    backgroundImg: './assets/img/etretat.png',
+    // backgroundImg: './assets/img/etretat.png',
+    backgroundImg: 'https://drive.google.com/uc?export=view&id=1HbOJiL7ZRJ6pkqSqIS4KHBy0h8xLcauQ',
     hoverColor: '#F8E4B9',
     title: 'Pale sunset',
     description: 'Paris and Étretat, May-June, 2017. A vivid sunburst appearing and vanishing ' +
@@ -65,7 +68,8 @@ export const PHOTOS: PhotoCard[] = [
     link: '/pale-sunset',
   },
   {
-    backgroundImg: './assets/img/paris.png',
+    // backgroundImg: './assets/img/paris.png',
+    backgroundImg: 'https://drive.google.com/uc?export=view&id=15OAHarIhts48e-x0pBocXJ4nwLOut9Cz',
     hoverColor: '#DCDCDC',
     title: 'Paris, then to the coast',
     description: 'Paris and Étretat, May-June, 2017. One swallow darting an inkblot across ' +
@@ -73,7 +77,8 @@ export const PHOTOS: PhotoCard[] = [
     link: '/paris-coast',
   },
   {
-    backgroundImg: './assets/img/elations.png',
+    // backgroundImg: './assets/img/elations.png',
+    backgroundImg: 'https://drive.google.com/uc?export=view&id=1v6FYtZacdP2NOOE2QZJsQsTR9g0D4s_b',
     hoverColor: '#83AB71',
     title: 'Small elations',
     description: 'Baltimore, Canton, Florence, Coney Island, 2018-2019. The sweetness of an ' +
@@ -86,79 +91,79 @@ export const PHOTOS: PhotoCard[] = [
 export const MOONSCAPES: Photo[] = [
   {
     id: 0,
-    imgUrl: './assets/img/moonscapes/moonscapes-1.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=10O_T7vOl_CwkBddS_X7lsDNYZDlrUsZn',
   },
   {
     id: 1,
-    imgUrl: './assets/img/moonscapes/moonscapes-5.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1z46qC0x5RlWoPkASPEcPde9sbIUJvZkB',
   },
   {
     id: 2,
-    imgUrl: './assets/img/moonscapes/moonscapes-17.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1hSWQhlic_RJtNYbqkQaZAWxmoFaPLuNJ',
   },
   {
     id: 3,
-    imgUrl: './assets/img/moonscapes/moonscapes-4.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1EK3AYIMC5PTarRzonmSKNfX7N6-8pm-n',
   },
   {
     id: 4,
-    imgUrl: './assets/img/moonscapes/moonscapes-9.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=11EiZkqBKp4651ehlI9SYLwyPG1ohLW0E',
   },
   {
     id: 5,
-    imgUrl: './assets/img/moonscapes/moonscapes-3.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1mVvadRPbuKM9069BGdBpJW--oS4wyS23',
   },
   {
     id: 6,
-    imgUrl: './assets/img/moonscapes/moonscapes-6.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=13O57Jwpw3P4k9QMaFprspzU3ZyCd_pE5',
   },
   {
     id: 7,
-    imgUrl: './assets/img/moonscapes/moonscapes-7.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1pkDD3WgPkneFcJgrJrbpcLcIbx-4L3YN',
   },
   {
     id: 8,
-    imgUrl: './assets/img/moonscapes/moonscapes-8.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1_RrbTaNnLA1GQJRzX5m5UjVNGGrFjxwQ',
   },
   {
     id: 9,
-    imgUrl: './assets/img/moonscapes/moonscapes-2.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=16gNswEE0Radb9bDKt1wmbqhCIXQXbNCD',
   },
   {
     id: 10,
-    imgUrl: './assets/img/moonscapes/moonscapes-12.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1KgkAIzlxyIzyoUy_Yzah-8SirrxgdlhT',
   },
   {
     id: 11,
-    imgUrl: './assets/img/moonscapes/moonscapes-11.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1hY7KVc6BD9ijOQ9c9t_-g-kB7vLBRtmx',
   },
   {
     id: 12,
-    imgUrl: './assets/img/moonscapes/moonscapes-15.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1sehZPMIcnjNUWYBY-shldqcj9Zehbg-T',
   },
   {
     id: 13,
-    imgUrl: './assets/img/moonscapes/moonscapes-13.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1Xbfne1RLfz3Kooz5NBjg1g8BMxGcs-6N',
   },
   {
     id: 14,
-    imgUrl: './assets/img/moonscapes/moonscapes-14.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1-SO2xHLKcAMQdmvlS1s1XOSRDApsZRND',
   },
   {
     id: 15,
-    imgUrl: './assets/img/moonscapes/moonscapes-10.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=17LNbcY-IQVyd-KsHH5E3FqoOVlNbU3Xd',
   },
   {
     id: 16,
-    imgUrl: './assets/img/moonscapes/moonscapes-16.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1pLhezcx_gGsxcTO0qFvAFaP_ipwyBv_Z',
   },
   {
     id: 17,
-    imgUrl: './assets/img/moonscapes/moonscapes-19.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1BfAeSs9HsUFhdFggSf_3f0Q_8I5-_FK4',
   },
   {
     id: 18,
-    imgUrl: './assets/img/moonscapes/moonscapes-18.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1hduF9olfEDhME-GyFINU81xp230rgx50',
   },
 ];
 

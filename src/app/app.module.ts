@@ -21,6 +21,7 @@ import { PhotoCardComponent } from './photos/photo-card/photo-card.component';
 import { PhotoGridComponent } from './photos/photo-grid/photo-grid.component';
 import { PhotoFooterComponent } from './photo-footer/photo-footer.component';
 import { LandingComponent } from './landing/landing.component';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { LandingComponent } from './landing/landing.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxPageScrollCoreModule
+    NgxPageScrollCoreModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

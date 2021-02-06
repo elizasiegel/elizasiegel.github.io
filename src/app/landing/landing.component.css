@@ -45,28 +45,30 @@ section {
 }
 
 /*----mobile----*/
-.mobile-landing-container .home-content {
-  flex-direction: column;
-}
+@media screen and (max-width: 600px) {
+  .mobile-landing-container .home-content {
+    flex-direction: column;
+  }
 
-.mobile-landing-container .wordContainer {
-  margin: 2em 1em 2em 1em;
-  width: 70%;
-}
+  .mobile-landing-container .wordContainer {
+    margin: 2em 1em 2em 1em;
+    width: 70%;
+  }
 
-.mobile-landing-container .descrip {
-  width: 100%;
-}
+  .mobile-landing-container .descrip {
+    width: 100%;
+  }
 
-.mobile-landing-container .imgContainer {
-  margin-left: 0;
-  width: 70%;
-}
+  .mobile-landing-container .imgContainer {
+    margin-left: 0;
+    width: 70%;
+  }
 
-.mobile-landing-container img {
-  border-radius: 1em;
-}
+  .mobile-landing-container img {
+    border-radius: 1em;
+  }
 
-.mobile-landing-container section {
-  padding: 4em 0 0 0;
+  .mobile-landing-container section {
+    padding: 4em 0 0 0;
+  }
 }
