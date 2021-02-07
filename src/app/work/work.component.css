@@ -15,17 +15,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  margin: 2em 0 2em 2em;
+  justify-content: center;
+  margin: 1em 0 1em 0;
 }
 
 .single-card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 28%;
-  height: 100%;
+  margin: 1em;
 }
 
 .resume-button {
@@ -47,10 +45,33 @@
   border-color: #DF7234;
 }
 
-
 section {
   padding: 0;
   margin-top: -6em;
+}
+
+/*---media queries for responsiveness---*/
+@media screen and (max-width: 1170px) {
+  .single-card {
+    margin: .5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .work-cards {
+    margin: 2em 1em 2em 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    margin: 0;
+  }
+
+  .work-cards {
+    margin: 0;
+  }
 }
 
 /*---mobile---*/
@@ -66,8 +87,8 @@ section {
 
 .mobile-container .work-cards {
   flex-direction: column;
-  margin: 0 0 1em -2em;
-  width: 72%;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-container .single-card {

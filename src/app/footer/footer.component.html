@@ -1,4 +1,4 @@
-<div class="footer-container" *ngIf="!isMobile">
+<section class="footer-container" *ngIf="!isMobile">
     <div class="lhs">
         <div class="title">Eliza Siegel</div>
         <div class="descrip">Designed and developed <br> with  🤍️ by
@@ -23,22 +23,19 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="mobile-footer-container" *ngIf="isMobile">
+<section class="mobile-footer-container" *ngIf="isMobile">
     <div class="rhs">
-        <div class="connect">
-            <div class="title">Connect</div>
-            <div class="item-container">
-                <div class="items" *ngFor="let c of connects">
-                    <a class="site-item" href="{{c.link}}" target="_blank">
-                        <img src="{{c.imgUrl}}" width="100%" alt="connect-icon">
-                    </a>
-                </div>
+        <div class="item-container">
+            <div class="items" *ngFor="let c of connects">
+                <a class="site-item" href="{{c.link}}" target="_blank">
+                    <img src="{{c.imgUrl}}" width="100%" alt="connect-icon">
+                </a>
             </div>
         </div>
     </div>
-    <div class="descrip">Designed and developed <br> with 🤍️ by
+    <div class="descrip">Designed and developed with 🤍️ by
         <a href="https://taylormcpherson.github.io/" target="_blank"> Taylor McPherson.</a>
     </div>
-</div>
+</section>

@@ -77,16 +77,16 @@
 }
 
 /*----mobile----*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .home-mobile {
     padding: 0;
   }
 
-  .home-mobile .page-container {
+  .page-container {
     margin-bottom: 2em;
   }
 
-  .home-mobile .home-container {
+  .home-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

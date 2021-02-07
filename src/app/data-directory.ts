@@ -5,7 +5,6 @@ export const HOMEWORDS: WordsImg[] = [
   {
     title: 'Eliza Siegel',
     subtitle: 'is a journalist and storyteller based in New Jersey.',
-    // imgUrl: './assets/img/eliza.png',
     imgUrl: 'https://drive.google.com/uc?export=view&id=1nG1l9F063-xsEwS0m5wnWKbCTD5y6wyo',
   }
 ];
@@ -51,7 +50,6 @@ export const WORKCARDS: WorkCard[] = [
 /*----Photos Page-----*/
 export const PHOTOS: PhotoCard[] = [
   {
-    // backgroundImg: './assets/img/roadtrip.png',
     backgroundImg: 'https://drive.google.com/uc?export=view&id=16gNswEE0Radb9bDKt1wmbqhCIXQXbNCD',
     hoverColor: '#CCE8F1',
     title: 'Moonscapes',
@@ -59,7 +57,6 @@ export const PHOTOS: PhotoCard[] = [
     link: '/moonscapes',
   },
   {
-    // backgroundImg: './assets/img/etretat.png',
     backgroundImg: 'https://drive.google.com/uc?export=view&id=1HbOJiL7ZRJ6pkqSqIS4KHBy0h8xLcauQ',
     hoverColor: '#F8E4B9',
     title: 'Pale sunset',
@@ -68,7 +65,6 @@ export const PHOTOS: PhotoCard[] = [
     link: '/pale-sunset',
   },
   {
-    // backgroundImg: './assets/img/paris.png',
     backgroundImg: 'https://drive.google.com/uc?export=view&id=15OAHarIhts48e-x0pBocXJ4nwLOut9Cz',
     hoverColor: '#DCDCDC',
     title: 'Paris, then to the coast',
@@ -77,7 +73,6 @@ export const PHOTOS: PhotoCard[] = [
     link: '/paris-coast',
   },
   {
-    // backgroundImg: './assets/img/elations.png',
     backgroundImg: 'https://drive.google.com/uc?export=view&id=1v6FYtZacdP2NOOE2QZJsQsTR9g0D4s_b',
     hoverColor: '#83AB71',
     title: 'Small elations',

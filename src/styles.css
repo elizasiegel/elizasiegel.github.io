@@ -4,6 +4,7 @@
   line-height: 1.6em;
   color: #333333;
   margin: 0;
+  box-sizing: border-box;
 }
 
 *:focus {outline:0 !important;}

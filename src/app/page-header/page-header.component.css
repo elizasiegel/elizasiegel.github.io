@@ -29,6 +29,26 @@
   font-style: italic;
 }
 
+
+/*---media queries for responsiveness---*/
+@media screen and (max-width: 800px) {
+  .header-container {
+    padding-top: 2em;
+  }
+  .header-content {
+    border-radius: 2em;
+    padding: 1em;
+    border: .5px solid #626262;
+  }
+}
+
+/*---media queries for responsiveness---*/
+@media screen and (max-width: 700px) {
+  .header-content {
+    width: 100%;
+  }
+}
+
 /*---mobile---*/
 .mobile-header-container {
   display: flex;

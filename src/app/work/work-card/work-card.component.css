@@ -8,9 +8,13 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 2em;
-  border-radius: 80px;
-  height: 21em;
-  width: 16em;
+  border-radius: 2em;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 330px;
+  max-width: 330px;
+  /*height: 21em;
+  width: 16em;*/
   border: solid 1px;
 }
 
@@ -48,8 +52,18 @@ a:active, a, a:hover {
   text-decoration: none;
 }
 
-/*---mobile---*/
+/*---media queries for responsiveness---*/
+@media screen and (max-width: 1200px) {
+  .work-card-container {
+    padding: 0 2em 0 2em;
+  }
+}
 
+@media screen and (max-width: 1000px) {
+
+}
+
+/*---mobile---*/
 .mobile-container .work-card-container {
   padding: 2em;
   border-radius: 2em;

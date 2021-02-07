@@ -1,4 +1,5 @@
-<div class="nav-container-web" *ngIf="!isMobile">
+<!--mobile--->
+<section class="nav-container-web" *ngIf="!isMobile">
   <div class="lhs">
     <div class="nav-item" id="navHome"
          routerLink="/home" routerLinkActive="activePage">
@@ -16,9 +17,10 @@
       <div class="underline"></div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="mobile-nav-container" *ngIf="isMobile">
+<!--mobile-->
+<section class="mobile-nav-container" *ngIf="isMobile">
   <div class="nav-item" id="navHome"
        routerLink="/home" routerLinkActive="activePage">
     WORK
@@ -32,4 +34,4 @@
     PHOTOS
     <div class="underline"></div>
   </div>
-</div>
+</section>

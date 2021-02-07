@@ -16,7 +16,7 @@ export class LandingComponent implements OnInit {
   constructor( public breakpointObserver: BreakpointObserver ) { }
   ngOnInit(): void {
     this.breakpointObserver
-        .observe(['(max-width: 600px)'])
+        .observe(['(max-width: 700px)'])
         .subscribe((state: BreakpointState) => {
           if (state.matches) {
             this.isMobile = true;
