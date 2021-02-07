@@ -171,51 +171,51 @@ export const MOONSCAPES: Photo[] = [
 export const PALESUNSET: Photo[] = [
   {
     id: 0,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-1.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1AB4NGzdIy7dqfZXTsHkWgHrNjyLCeL8w'
   },
   {
     id: 1,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-2.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1OT2dSRcgLtgSkjde5yZbzg9vP_QpMuX6'
   },
   {
     id: 2,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-3.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=10_Q0pBGNMEZhGYV4LSRlLFn_lPIyDE5f'
   },
   {
     id: 3,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-4.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1HbOJiL7ZRJ6pkqSqIS4KHBy0h8xLcauQ'
   },
   {
     id: 4,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-5.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1bztcJ0fdEzVRg-qpHCw--NCEVMWxQmxp'
   },
   {
     id: 5,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-6.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1qvBSKWP80vbUbuUuJNhj3IlzxIoOGNmx'
   },
   {
     id: 6,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-7.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1STdNMQCnc4klwaicCsnj3ohYFBaj5kOY'
   },
   {
     id: 7,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-8.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1JWxWC20veq5VI4hsWivfkZBxCO9CdNGZ'
   },
   {
     id: 8,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-9.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1y0_onU4P9RAVMp6foKYUIaNtw1CXN7qQ'
   },
   {
     id: 9,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-10.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1TiYMGnap0iSoZi2x5nhUW6KBV_9pA7vx'
   },
   {
     id: 10,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-11.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=192EJajnzdU3oUNCdmws6zpGvzjn8PZni'
   },
   {
     id: 11,
-    imgUrl: './assets/img/pale-sunset/pale-sunset-12.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1b5JjOUUIRUretUFx0yJ3SehcPC1DQdzX'
   },
 ];
 
@@ -223,67 +223,67 @@ export const PALESUNSET: Photo[] = [
 export const PARIS: Photo[] = [
   {
     id: 0,
-    imgUrl: './assets/img/paris-coast/paris-1.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1CcE_D8rxDIXEm-Jj_mJEdkPTWF9vUrIU',
   },
   {
     id: 1,
-    imgUrl: './assets/img/paris-coast/paris-2.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1RmLlhqvAiu2At1PQN_vXUU0AW-Z95S2b',
   },
   {
     id: 2,
-    imgUrl: './assets/img/paris-coast/paris-3.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1_F1kX9lv_cdz-0srlreEZmKtIiJOjGiW',
   },
   {
     id: 3,
-    imgUrl: './assets/img/paris-coast/paris-4.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1F-zuSNfNYOxLhUeyg8X713IBUimepuI9',
   },
   {
     id: 4,
-    imgUrl: './assets/img/paris-coast/paris-5.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=14DGPCr1j01334Phrme9LVlft4UCsW6-U',
   },
   {
     id: 5,
-    imgUrl: './assets/img/paris-coast/paris-6.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1NFbcozI75vaqRpzD-pzJUDnvshePt3JK',
   },
   {
     id: 6,
-    imgUrl: './assets/img/paris-coast/paris-7.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1snpOn3L8G0a0IdhgXYtIkKhlbFboz_RL',
   },
   {
     id: 7,
-    imgUrl: './assets/img/paris-coast/paris-8.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=15OAHarIhts48e-x0pBocXJ4nwLOut9Cz',
   },
   {
     id: 8,
-    imgUrl: './assets/img/paris-coast/paris-11.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=11okJ_0-qp0uYXQXx00_fHr8x35aYayja',
   },
   {
     id: 9,
-    imgUrl: './assets/img/paris-coast/paris-15.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1a5cT7hnAHYHlqOPLKN-b6ezJ9-EIO-qz',
   },
   {
     id: 10,
-    imgUrl: './assets/img/paris-coast/paris-9.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=126ewwT9c6BvmGQBBgRRZgGikrTBFyYmf',
   },
   {
     id: 11,
-    imgUrl: './assets/img/paris-coast/paris-10.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1euyAsA3XFigSZmWAiHUQRehkTIfZzkwg',
   },
   {
     id: 12,
-    imgUrl: './assets/img/paris-coast/paris-13.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=19v3VzJWSZREjzwtzzWhAEhGlQ_PV_IXv',
   },
     {
     id: 13,
-    imgUrl: './assets/img/paris-coast/paris-12.png',
+      imgUrl: 'https://drive.google.com/uc?export=view&id=1pQEAyUkxzLBow_8_ia9K_BtWlj3HgfkD',
   },
   {
     id: 14,
-    imgUrl: './assets/img/paris-coast/paris-16.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1ZUnQrAHod-TUwpZVRBYPvyuh4G4CqU9w',
   },
   {
     id: 15,
-    imgUrl: './assets/img/paris-coast/paris-14.png',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1p0JuWdiLDxIsr2EA_wWRg9393RZbWDJy',
   },
 ];
 
@@ -291,47 +291,47 @@ export const PARIS: Photo[] = [
 export const ELATIONS: Photo[] = [
   {
     id: 0,
-    imgUrl: './assets/img/small-elations/elations-1.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 1,
-    imgUrl: './assets/img/small-elations/elations-2.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 2,
-    imgUrl: './assets/img/small-elations/elations-8.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 3,
-    imgUrl: './assets/img/small-elations/elations-4.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 4,
-    imgUrl: './assets/img/small-elations/elations-5.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 5,
-    imgUrl: './assets/img/small-elations/elations-6.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 6,
-    imgUrl: './assets/img/small-elations/elations-10.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 7,
-    imgUrl: './assets/img/small-elations/elations-9.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 8,
-    imgUrl: './assets/img/small-elations/elations-11.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 9,
-    imgUrl: './assets/img/small-elations/elations-3.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
   {
     id: 10,
-    imgUrl: './assets/img/small-elations/elations-7.png'
+    imgUrl: 'https://drive.google.com/uc?export=view&id=',
   },
 ];
 
