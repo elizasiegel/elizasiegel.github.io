@@ -291,47 +291,47 @@ export const PARIS: Photo[] = [
 export const ELATIONS: Photo[] = [
   {
     id: 0,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1hfnfUrVF_6usFlMm13L2c9SQzLqa9FUe',
   },
   {
     id: 1,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1j5DxhiIe4RcJ35LHzyIVTqdq0_CNIuJ_',
   },
   {
     id: 2,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1v6FYtZacdP2NOOE2QZJsQsTR9g0D4s_b',
   },
   {
     id: 3,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1_wWQIRK_ARw1ReQof10OwTNMvhTwN7H1',
   },
   {
     id: 4,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1vkg-lnXSU0k6tqXO2PLBUXLoRBT4cmiv',
   },
   {
     id: 5,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1Git-du6VvI5s3uNo4wJ4Uhn2BwGRyy2I',
   },
   {
     id: 6,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1ORKKxI3PWGiqJTmIm4JvDxMfm_-hI2Ie',
   },
   {
     id: 7,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1Wpd3VGLV6paZ3TjUS2WElGX5mPzMUba4',
   },
   {
     id: 8,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1AwI8o9bvbNPh6NF_ViE1uozaNGsAc6kX',
   },
   {
     id: 9,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1FtjTgCl-sON2sWMsZzFYPAIMUJxFSeWi',
   },
   {
     id: 10,
-    imgUrl: 'https://drive.google.com/uc?export=view&id=',
+    imgUrl: 'https://drive.google.com/uc?export=view&id=1jCzj_WAbdiXM680X8ESwlr9a_EFwjfk2',
   },
 ];
 
